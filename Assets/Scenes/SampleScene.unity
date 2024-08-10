@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 1131195359}
   - component: {fileID: 1131195358}
   m_Layer: 0
-  m_Name: SnapPoint
+  m_Name: SnapPoint_Washing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -811,12 +811,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131195357}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.21, y: 1.8, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5660179, y: 1.2713482, z: -0.019801289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1576684061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1323391084
 GameObject:
@@ -995,6 +995,21 @@ MonoBehaviour:
   draggableObjects:
   - {fileID: 382973715}
   snapRange: 1
+  onSnapped:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 565295201}
+        m_TargetAssemblyTypeName: TimerController, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1576684061
 Transform:
   m_ObjectHideFlags: 0
@@ -1007,7 +1022,8 @@ Transform:
   m_LocalPosition: {x: 0.6439822, y: 0.5286518, z: 0.019801289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1131195359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092708063
@@ -1099,9 +1115,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 382973718}
   - {fileID: 1576684061}
-  - {fileID: 1131195359}
+  - {fileID: 382973718}
   - {fileID: 2092708065}
   - {fileID: 608458808}
   - {fileID: 1323391087}
