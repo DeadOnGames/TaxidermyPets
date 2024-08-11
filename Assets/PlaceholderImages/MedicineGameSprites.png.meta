@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: a30aeea927aaf5e43aa1c9979608889b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2048
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MedicineGameSprites_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3418
+        width: 115
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82a36c8c9c81245895cce62f8fb896
+      internalID: -1124508257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3418
+        width: 114
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4130961d52973a548a7288a2503283e8
+      internalID: 1446492228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3418
+        width: 114
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9059aa3d236be094581097fa5f6f7d3c
+      internalID: -650268301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 3418
+        width: 113
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d127340ca836d41bc91b105911187e
+      internalID: -95826904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 3418
+        width: 93
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf04e50bfeadc4409ac7efa2239d664
+      internalID: -1586076211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_5
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 3418
+        width: 135
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d81bc77bf61c23488c62aaffac08ab1
+      internalID: 2065325050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_6
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 3418
+        width: 115
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abd2b2e346b44a4f9f9e86755fc3ccd
+      internalID: 654997233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 3418
+        width: 126
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135490d7946e3784dbff88bf49216f2f
+      internalID: 1133406673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_8
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 3418
+        width: 124
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdb628d123fe2c439705d5be3205f8a
+      internalID: -645050767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_9
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2768
+        width: 1305
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04fbe57f47e747448ade98cad887a19
+      internalID: 1326295927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3207
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab9e8c0215400149a58fa236bd3100c
+      internalID: -982035251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3207
+        width: 645
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e637712e34d4d458b0486519295ffe
+      internalID: 1528440524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_12
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 2787
+        width: 596
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb304f1622d4a24f9564b5a19d1430d
+      internalID: -786772013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2828
+        width: 505
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9927c016255d38478365d55c6465834
+      internalID: 2044775661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_14
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 3078
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba42a5781738d844587434dc8faded95
+      internalID: 1274146079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3078
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a79aba0e6d324d8db3bcff0c654a3
+      internalID: 1676174250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2948
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fbdd9b22c3f0d41862927a79b958b3
+      internalID: -322967738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_17
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2948
+        width: 115
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f13afc38de18f469bbaf6bd25aa5e6
+      internalID: 1080010921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2948
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08da21dd3563aa94585b44d3e9ad101b
+      internalID: -1476131948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2468
+        width: 505
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bb3922768023e4e9b00f573f81469c
+      internalID: 636256526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_20
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2308
+        width: 595
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee17948068dca14e8bc74275a78cfaf
+      internalID: -979634527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_21
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1917
+        width: 1305
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ed129d52bbef4c9b402344d509b27
+      internalID: 573506170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2108
+        width: 505
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3b1ad45599da8409fe48bede0162c5
+      internalID: -1032434931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_23
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1598
+        width: 975
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5478031dcb744f4ba59c051a076c9ee
+      internalID: -973199549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1609
+        width: 594
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa488acee11074b488920928ed15d4e9
+      internalID: -1792879037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1428
+        width: 154
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb5ae36bfb52f846ad75e2b708e764a
+      internalID: -1623456238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1118
+        width: 124
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19630be87e679d24fb8cfbd4a3b9ad4d
+      internalID: -698541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1137
+        width: 244
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ae2ea4e56ea9e4fba3ca0dc804c25f
+      internalID: -633566838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1128
+        width: 215
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef64f3deccbbf7d47ab3a523ac8fdef4
+      internalID: 785917067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_29
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1128
+        width: 244
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b0f6fc5179fd4f969cf36404d19f0
+      internalID: -451086017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1118
+        width: 105
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea147db2bad16a84798130377f7a3a92
+      internalID: -2072360191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_31
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1298
+        width: 54
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07daf71388ca53744b506af0ab28374f
+      internalID: -332614970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 628
+        width: 175
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49149325990f7341a9df550b567046a
+      internalID: -317000481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 628
+        width: 145
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa4f090930d0ba45aa0669831a03fe0
+      internalID: -685165224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_34
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 648
+        width: 266
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29898c095e9709540bde82162d19a4d4
+      internalID: 1599092357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_35
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 637
+        width: 234
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fd76bc1d39d164bb9e775f906d23a6
+      internalID: -838597624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_36
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 637
+        width: 294
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff65d265ca3c594b87c1123dc4eed94
+      internalID: -212963210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 448
+        width: 154
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d92c77e39f760c478976c9821636c2f
+      internalID: -1734279676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_38
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 137
+        width: 124
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a5d36b38872e847aa12812d237f01c
+      internalID: -867634105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 159
+        width: 245
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec075e1e79a8fb84c9c74f28658c29c3
+      internalID: 255816811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_40
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 148
+        width: 215
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323f8f58b49bea342bf6de244bf51d59
+      internalID: -413920286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_41
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 148
+        width: 245
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697149a8f233aa741a077afe02bb8ce2
+      internalID: -935128052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 137
+        width: 105
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df33330b375363447966933423edcba1
+      internalID: 1089767299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicineGameSprites_43
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 318
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53a6f2e8e432cd41b4bb71412f271c2
+      internalID: -226844589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MedicineGameSprites_0: -1124508257
+      MedicineGameSprites_1: 1446492228
+      MedicineGameSprites_10: -982035251
+      MedicineGameSprites_11: 1528440524
+      MedicineGameSprites_12: -786772013
+      MedicineGameSprites_13: 2044775661
+      MedicineGameSprites_14: 1274146079
+      MedicineGameSprites_15: 1676174250
+      MedicineGameSprites_16: -322967738
+      MedicineGameSprites_17: 1080010921
+      MedicineGameSprites_18: -1476131948
+      MedicineGameSprites_19: 636256526
+      MedicineGameSprites_2: -650268301
+      MedicineGameSprites_20: -979634527
+      MedicineGameSprites_21: 573506170
+      MedicineGameSprites_22: -1032434931
+      MedicineGameSprites_23: -973199549
+      MedicineGameSprites_24: -1792879037
+      MedicineGameSprites_25: -1623456238
+      MedicineGameSprites_26: -698541
+      MedicineGameSprites_27: -633566838
+      MedicineGameSprites_28: 785917067
+      MedicineGameSprites_29: -451086017
+      MedicineGameSprites_3: -95826904
+      MedicineGameSprites_30: -2072360191
+      MedicineGameSprites_31: -332614970
+      MedicineGameSprites_32: -317000481
+      MedicineGameSprites_33: -685165224
+      MedicineGameSprites_34: 1599092357
+      MedicineGameSprites_35: -838597624
+      MedicineGameSprites_36: -212963210
+      MedicineGameSprites_37: -1734279676
+      MedicineGameSprites_38: -867634105
+      MedicineGameSprites_39: 255816811
+      MedicineGameSprites_4: -1586076211
+      MedicineGameSprites_40: -413920286
+      MedicineGameSprites_41: -935128052
+      MedicineGameSprites_42: 1089767299
+      MedicineGameSprites_43: -226844589
+      MedicineGameSprites_5: 2065325050
+      MedicineGameSprites_6: 654997233
+      MedicineGameSprites_7: 1133406673
+      MedicineGameSprites_8: -645050767
+      MedicineGameSprites_9: 1326295927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
