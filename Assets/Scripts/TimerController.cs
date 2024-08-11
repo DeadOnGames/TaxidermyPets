@@ -9,13 +9,15 @@ public class TimerController : MonoBehaviour
     private bool isTriggered;
 
     public Image timerProgress;
-    public float maxTime = 5;
+    public float doneTime = 3;
+    public float maxTime = 6;
 
 
     // Start is called before the first frame update
     void Start()
     {
         time = 0;
+        timerProgress.color = Color.green;
     }
 
     // Update is called once per frame
@@ -25,6 +27,10 @@ public class TimerController : MonoBehaviour
         {
             if(time < maxTime)
             {
+                if(time >= doneTime)
+                {
+                    timerProgress.color = Color.red;
+                }
                 time += Time.deltaTime;
                 timerProgress.fillAmount = time / maxTime;
             }
