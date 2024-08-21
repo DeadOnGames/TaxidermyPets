@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +13,7 @@ public class Draggable : MonoBehaviour
     private Vector3 mouseDragStartPosition;
     private Vector3 objectDragStartPosition;
 
-    private void OnMouseDown()
+    public virtual void OnMouseDown()
     {
         isDragged = true;
         mouseDragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -26,9 +27,16 @@ public class Draggable : MonoBehaviour
             transform.localPosition = objectDragStartPosition + (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseDragStartPosition);
         }
     }
-    private void OnMouseUp() 
+    public virtual void OnMouseUp() 
     {
         isDragged = false;
-        dragEndedCallBack(this);
+        try
+        {
+            dragEndedCallBack(this);
+        } catch (NullReferenceException e)
+        {
+            Debug.Log(e.Message);
+        }
+        
     }
 }
