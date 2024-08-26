@@ -9,8 +9,6 @@ public class SnapController : MonoBehaviour
     public List<Draggable> draggableObjects;
     public float snapRange = 0.5f;
 
-    public UnityEvent onSnapped;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +36,7 @@ public class SnapController : MonoBehaviour
         if(closestSnapPoint != null && closestDistance <= snapRange) 
         {
             draggable.transform.localPosition = closestSnapPoint.localPosition;
-            onSnapped.Invoke();
+            closestSnapPoint.gameObject.GetComponent<SnapPoint>().SnapPointTriggered();
         }
     }
 }

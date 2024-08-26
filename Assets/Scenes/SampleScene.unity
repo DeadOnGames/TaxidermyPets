@@ -218,6 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 304299147}
   - component: {fileID: 304299148}
+  - component: {fileID: 304299149}
   m_Layer: 0
   m_Name: SnapPoint_Main_Station2
   m_TagString: Untagged
@@ -292,6 +293,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &304299149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304299146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  snapPointType: 0
 --- !u!1 &312329019
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,17 +967,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &565295201 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7870425987991133195, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
-  m_PrefabInstance: {fileID: 7769077655158667760}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8aaf04cd2195aa47ba557459b942583, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &590414307
 GameObject:
   m_ObjectHideFlags: 0
@@ -6148,6 +6152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131195359}
   - component: {fileID: 1131195358}
+  - component: {fileID: 1131195360}
   m_Layer: 0
   m_Name: SnapPoint_Washing
   m_TagString: Untagged
@@ -6222,6 +6227,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1576684061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131195360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131195357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  snapPointType: 1
 --- !u!1 &1177173131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6448701733530584351, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
@@ -6395,6 +6414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343676449}
   - component: {fileID: 1343676450}
+  - component: {fileID: 1343676451}
   m_Layer: 0
   m_Name: SnapPoint_Main_Station3
   m_TagString: Untagged
@@ -6469,6 +6489,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1343676451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343676448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  snapPointType: 0
 --- !u!1 &1486606951
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,21 +6826,6 @@ MonoBehaviour:
   draggableObjects:
   - {fileID: 382973715}
   snapRange: 1
-  onSnapped:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 565295201}
-        m_TargetAssemblyTypeName: TimerController, Assembly-CSharp
-        m_MethodName: StartTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!4 &1576684061
 Transform:
   m_ObjectHideFlags: 0
@@ -7616,6 +7635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123366218}
   - component: {fileID: 2123366219}
+  - component: {fileID: 2123366220}
   m_Layer: 0
   m_Name: SnapPoint_Main_Station1
   m_TagString: Untagged
@@ -7690,6 +7710,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2123366220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123366217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  snapPointType: 0
 --- !u!1001 &7769077655158667760
 PrefabInstance:
   m_ObjectHideFlags: 0
