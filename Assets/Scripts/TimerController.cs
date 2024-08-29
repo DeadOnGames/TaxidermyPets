@@ -42,12 +42,13 @@ public class TimerController : MonoBehaviour
     }
 
     public void PauseTimer() 
-    { 
-        
+    {
+        isTriggered = false;
     }
 
     public void ResetTimer()
     {
-
+        isTriggered= false;
+        time = 0;
     }
 }
