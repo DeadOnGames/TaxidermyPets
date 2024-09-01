@@ -51,5 +51,7 @@ public class EyeBallPatrol : MonoBehaviour
     {
         isDropped = true;
         rb.velocity = Vector2.zero;
+
+        rb.constraints = RigidbodyConstraints2D.None; 
     }
 }
