@@ -39,4 +39,9 @@ public class Draggable : MonoBehaviour
         }
         
     }
+
+    public void TeleportAnimal(Vector3 destination)
+    {
+        transform.localPosition = destination;
+    }
 }

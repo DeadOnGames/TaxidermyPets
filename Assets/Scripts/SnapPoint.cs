@@ -9,14 +9,17 @@ public class SnapPoint : MonoBehaviour
     public PointType snapPointType;
     public TimerController AssociatedTimer;
 
+    public SnapPoint teleportDestination;
+
     private TimerParentController timerParent;
+
 
     private void Start()
     {
         timerParent = FindObjectOfType<TimerParentController>();
     }
 
-    public void SnapPointTriggered()
+    public void SnapPointTriggered(Draggable animal)
     {
         Debug.Log($"Snap point {id} has been triggered");
 
@@ -29,6 +32,13 @@ public class SnapPoint : MonoBehaviour
             case PointType.Timed:
                 if (AssociatedTimer != null) AssociatedTimer.StartTimer();
                 break;
+            case PointType.Teleporter:
+                //Stop all timers
+                timerParent.PauseAllTimers();
+                //TODO: Check station complete
+                //Teleport object
+                if (teleportDestination != null) animal.TeleportAnimal(teleportDestination.transform.localPosition); 
+                break;
             case PointType.Accessories: 
                 //Todo: Need to add funcitonality later
                 break;
@@ -38,5 +48,5 @@ public class SnapPoint : MonoBehaviour
 
 public enum PointType
 {
-    Idle, Timed, Accessories
+    Idle, Timed, Teleporter, Accessories
 };

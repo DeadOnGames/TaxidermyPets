@@ -36,7 +36,7 @@ public class SnapController : MonoBehaviour
         if(closestSnapPoint != null && closestDistance <= snapRange) 
         {
             draggable.transform.localPosition = closestSnapPoint.localPosition;
-            closestSnapPoint.gameObject.GetComponent<SnapPoint>().SnapPointTriggered();
+            closestSnapPoint.gameObject.GetComponent<SnapPoint>().SnapPointTriggered(draggable);
         }
     }
 }
