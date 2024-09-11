@@ -6666,10 +6666,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 4
   snapPointType: 2
   AssociatedTimer: {fileID: 877095919}
-  teleportDestination: {fileID: 0}
+  teleportDestination: {fileID: 304299149}
 --- !u!212 &1154771162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7342,10 +7342,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1131195359}
-  - {fileID: 1154771160}
   - {fileID: 2123366218}
   - {fileID: 304299147}
   - {fileID: 1343676449}
+  - {fileID: 1154771160}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1647296371
