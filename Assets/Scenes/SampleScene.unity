@@ -501,13 +501,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 304299146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Script: {fileID: 11500000, guid: dd75ee3c3a788a94db857cbf8b996b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
   snapPointType: 0
-  AssociatedTimer: {fileID: 0}
-  teleportDestination: {fileID: 0}
+  isTriggered: 0
 --- !u!1 &312329019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6614,13 +6613,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1131195357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c7b4dbefea74644dba6c60ea2bccdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  snapPointType: 1
+  snapPointType: 0
+  isTriggered: 0
   AssociatedTimer: {fileID: 877095919}
-  teleportDestination: {fileID: 0}
 --- !u!1 &1154771159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6631,7 +6630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154771160}
   - component: {fileID: 1154771162}
-  - component: {fileID: 1154771161}
+  - component: {fileID: 1154771163}
   m_Layer: 0
   m_Name: SnapPoint_Transporter_Station1
   m_TagString: Untagged
@@ -6654,22 +6653,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1576684061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1154771161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154771159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 4
-  snapPointType: 2
-  AssociatedTimer: {fileID: 877095919}
-  teleportDestination: {fileID: 304299149}
 --- !u!212 &1154771162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6722,6 +6705,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1154771163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154771159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159436eaa7e013f4280bfac69a608694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  snapPointType: 2
+  isTriggered: 0
+  teleportDestination: {fileID: 304299149}
 --- !u!1 &1177173131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6448701733530584351, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
@@ -6996,13 +6995,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1343676448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Script: {fileID: 11500000, guid: dd75ee3c3a788a94db857cbf8b996b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3
   snapPointType: 0
-  AssociatedTimer: {fileID: 0}
-  teleportDestination: {fileID: 0}
+  isTriggered: 0
 --- !u!1 &1486606951
 GameObject:
   m_ObjectHideFlags: 0
@@ -8512,13 +8510,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123366217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1528a5b11cce84a887593d51cf42d9, type: 3}
+  m_Script: {fileID: 11500000, guid: dd75ee3c3a788a94db857cbf8b996b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
   snapPointType: 0
-  AssociatedTimer: {fileID: 0}
-  teleportDestination: {fileID: 0}
+  isTriggered: 0
 --- !u!1001 &7769077655158667760
 PrefabInstance:
   m_ObjectHideFlags: 0
