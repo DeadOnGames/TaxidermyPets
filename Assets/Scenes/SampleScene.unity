@@ -505,7 +505,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
-  snapPointType: 0
   isTriggered: 0
 --- !u!1 &312329019
 GameObject:
@@ -6617,7 +6616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  snapPointType: 0
   isTriggered: 0
   AssociatedTimer: {fileID: 877095919}
 --- !u!1 &1154771159
@@ -6718,9 +6716,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 4
-  snapPointType: 2
   isTriggered: 0
   teleportDestination: {fileID: 304299149}
+  TeleportDuration: 1
 --- !u!1 &1177173131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6448701733530584351, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
@@ -6999,7 +6997,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3
-  snapPointType: 0
   isTriggered: 0
 --- !u!1 &1486606951
 GameObject:
@@ -7325,7 +7322,7 @@ MonoBehaviour:
   - {fileID: 1154771160}
   draggableObjects:
   - {fileID: 382973715}
-  snapRange: 1
+  snapRange: 5
 --- !u!4 &1576684061
 Transform:
   m_ObjectHideFlags: 0
@@ -8514,7 +8511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
-  snapPointType: 0
   isTriggered: 0
 --- !u!1001 &7769077655158667760
 PrefabInstance:
