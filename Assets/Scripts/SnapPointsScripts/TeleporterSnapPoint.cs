@@ -24,6 +24,8 @@ public class TeleporterSnapPoint : SnapPoint
 
     private IEnumerator MoveToPosition(Draggable objectToMove, Vector3 targetPosition, float duration)
     {
+        //TODO: As soon as draggable is out of view, snap it to position
+
         Vector3 startPosition = objectToMove.transform.position;
         float elapsedTime = 0f;
 
