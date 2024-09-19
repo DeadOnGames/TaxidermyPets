@@ -24,20 +24,30 @@ public class TeleporterSnapPoint : SnapPoint
 
     private IEnumerator MoveToPosition(Draggable objectToMove, Vector3 targetPosition, float duration)
     {
-        //TODO: As soon as draggable is out of view, snap it to position
-
         Vector3 startPosition = objectToMove.transform.position;
         float elapsedTime = 0f;
 
+        Camera mainCamera = Camera.main;
+
         while (elapsedTime < duration)
         {
-            objectToMove.transform.position = Vector3.Lerp(startPosition, startPosition + new Vector3(10,0,0), elapsedTime / duration);
-            elapsedTime += Time.deltaTime;
-            yield return null; //Wait until next frame
-        }
+            Vector3 newPosition = Vector3.Lerp(startPosition, startPosition + new Vector3(10, 0, 0), elapsedTime / duration);
 
+            Vector3 viewportPoint = mainCamera.WorldToViewportPoint(newPosition);
+            if (viewportPoint.x < 0 || viewportPoint.x > 1 || viewportPoint.y < 0 || viewportPoint.y > 1)
+            {
+                objectToMove.transform.position = targetPosition;
+                yield break;
+            }
+
+            objectToMove.transform.position = newPosition;
+            elapsedTime += Time.deltaTime;
+
+            yield return null;
+        }
         objectToMove.transform.position = targetPosition;
     }
+
 
 }
 
