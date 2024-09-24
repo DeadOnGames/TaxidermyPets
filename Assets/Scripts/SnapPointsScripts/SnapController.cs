@@ -25,6 +25,7 @@ public class SnapController : MonoBehaviour
 
         foreach (Transform snapPoint in snapPoints)
         {
+            snapPoint.GetComponent<SnapPoint>().Release();
             float currentDistance = Vector2.Distance(draggable.transform.localPosition, snapPoint.localPosition);
             if (closestSnapPoint == null || currentDistance < closestDistance)
             {

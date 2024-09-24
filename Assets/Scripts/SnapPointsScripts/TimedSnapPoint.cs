@@ -12,8 +12,17 @@ public class TimedSnapPoint : SnapPoint
         {
             base.Snap(objectToSnap);
             objectToSnap.transform.position = transform.position; // Snap into position
-            if (AssociatedTimer != null) AssociatedTimer.StartTimer();
+            if (AssociatedTimer != null)
+            {
+                AssociatedTimer.StartTimer();
+            }
         }
+    }
+
+    public override void Release()
+    {
+        base.Release();
+        AssociatedTimer.PauseTimer();
     }
 }
 
