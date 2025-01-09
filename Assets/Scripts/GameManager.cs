@@ -5,9 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private int numberOfStations = 3;
-    public static GameManager Instance; // A static reference to the GameManager instance
 
+    public static GameManager Instance; // A static reference to the GameManager instance
     public int NumberOfStations { get => numberOfStations; private set => numberOfStations = value; }
+    public GameObject currentAnimal; //TODO: In future, instantiate this
 
     
     void Awake()

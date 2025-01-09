@@ -10,11 +10,16 @@ public class Draggable : MonoBehaviour
     public DragEndedDelegate dragEndedCallBack;
 
     private bool isDragged;
+    private bool isDraggable = true;
     private Vector3 mouseDragStartPosition;
     private Vector3 objectDragStartPosition;
 
+    public bool IsDraggable { set { isDraggable = value; } } 
+
     public virtual void OnMouseDown()
     {
+        if (!isDraggable) return;
+
         isDragged = true;
         mouseDragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         objectDragStartPosition = transform.localPosition;
@@ -22,13 +27,17 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        if(isDragged)
+        if (!isDraggable) return;
+
+        if (isDragged)
         {
             transform.localPosition = objectDragStartPosition + (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseDragStartPosition);
         }
     }
     public virtual void OnMouseUp() 
     {
+        if (!isDraggable) return;
+
         isDragged = false;
         try
         {
