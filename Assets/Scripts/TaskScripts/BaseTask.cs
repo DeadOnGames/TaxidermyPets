@@ -37,6 +37,6 @@ public abstract class BaseTask : ITask
         if (canvas != null)
             canvas.SetActive(false);
 
-        Animal.GetComponent<Draggable>().IsDraggable = true;
+        if(Animal) Animal.GetComponent<Draggable>().IsDraggable = true;
     }
 }
