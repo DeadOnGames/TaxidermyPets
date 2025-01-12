@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3422960342209073559}
   - component: {fileID: 8767804782478855100}
-  - component: {fileID: 5067922392246010468}
   - component: {fileID: 95294086826898570}
+  - component: {fileID: 5067922392246010468}
   - component: {fileID: 334688750119451996}
   m_Layer: 0
   m_Name: Dog
@@ -87,18 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5067922392246010468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3588424729588735784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b4fb84ed4c5b9d44b54f5011c8cbc5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &95294086826898570
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -179,6 +167,18 @@ PolygonCollider2D:
       - {x: 0.17702986, y: 0.005482479}
       - {x: 0.18241103, y: -0.06316931}
   m_UseDelaunayMesh: 0
+--- !u!114 &5067922392246010468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3588424729588735784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4fb84ed4c5b9d44b54f5011c8cbc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &334688750119451996
 MonoBehaviour:
   m_ObjectHideFlags: 0
