@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public abstract class BaseTask : ITask
 {
     private GameManager gameManager;
+    protected UnityEvent onEndTask;
 
     protected GameObject canvas;
     protected GameObject Animal
@@ -18,10 +21,11 @@ public abstract class BaseTask : ITask
         }
     }
 
-    public BaseTask(GameObject canvas)
+    public BaseTask(GameObject canvas, UnityEvent onEndTask)
     {
         gameManager = GameManager.Instance;
         this.canvas = canvas;
+        this.onEndTask = onEndTask;
     }
 
     public virtual void BeginTask()
@@ -38,5 +42,8 @@ public abstract class BaseTask : ITask
             canvas.SetActive(false);
 
         if(Animal) Animal.GetComponent<Draggable>().IsDraggable = true;
+
+        Debug.Log("EndTask has been invoked");
+        onEndTask?.Invoke();
     }
 }
