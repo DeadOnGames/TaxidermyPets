@@ -40,7 +40,9 @@ public class AccessoryController : MonoBehaviour
         droppedAccessory.transform.position = positionAtDrop;
 
         var rb = droppedAccessory.GetComponentInChildren<Rigidbody2D>();
-        rb.velocity = Vector3.zero;
+        rb.velocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.None;
+        rb.velocity = new Vector2(0, -5f);
     }
+
 }
