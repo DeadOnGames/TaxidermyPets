@@ -1716,6 +1716,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887985867}
   m_CullTransparentMesh: 1
+--- !u!1 &895708026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5652925004100539536, guid: 62fbea335ea901f4198235bbdfa9c185, type: 3}
+  m_PrefabInstance: {fileID: 1116400070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1018801565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3855,7 +3860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2087434668}
   dropButton: {fileID: 1996657257}
-  patrollingItem: {fileID: 460219876}
+  patrollingPrefab: {fileID: 460219876}
+  patrollingChildItem: {fileID: 895708026}
 --- !u!1 &1996657257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,9 +3944,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: EyeBallPatrol, Assembly-CSharp
-        m_MethodName: DropEye
+      - m_Target: {fileID: 1920906797}
+        m_TargetAssemblyTypeName: AccessoryController, Assembly-CSharp
+        m_MethodName: DropAccessory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -15,4 +15,4 @@ MonoBehaviour:
   accessoryName: GreenEye
   accessoryID: 2
   accessorySprite: {fileID: 26948188, guid: 11eddffa9da16df45a5e8a535ea925e6, type: 3}
-  prefab: {fileID: 195362159388545800, guid: 007bc3a2a1549a040a78ba72834dead9, type: 3}
+  prefab: {fileID: 195362159388545800, guid: 28b9bc196b5f3a147b26e73e8733d33e, type: 3}

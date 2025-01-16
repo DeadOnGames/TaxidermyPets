@@ -15,4 +15,4 @@ MonoBehaviour:
   accessoryName: BlueEye
   accessoryID: 1
   accessorySprite: {fileID: 1643913458, guid: 11eddffa9da16df45a5e8a535ea925e6, type: 3}
-  prefab: {fileID: 195362159388545800, guid: 62fbea335ea901f4198235bbdfa9c185, type: 3}
+  prefab: {fileID: 195362159388545800, guid: 293ecf6ce49b1c44aa9324218ad89432, type: 3}

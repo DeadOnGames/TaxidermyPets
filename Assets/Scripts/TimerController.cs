@@ -8,16 +8,24 @@ public class TimerController : MonoBehaviour
     private float time;
     private bool isTriggered;
 
+    //Timer segments
+    private float quarterTime, halfTime, threeQuartersTime;
+
     public Image timerProgress;
+
     public float doneTime = 3;
-    public float maxTime = 6;
+    public float maxTime = 8;
 
 
     // Start is called before the first frame update
     void Start()
     {
         time = 0;
-        timerProgress.color = Color.green;
+
+        CalculateTimerSegments();
+        SetDoneTime(halfTime);
+
+        timerProgress.color = Color.grey;
     }
 
     // Update is called once per frame
@@ -27,10 +35,19 @@ public class TimerController : MonoBehaviour
         {
             if(time < maxTime)
             {
-                if(time >= doneTime)
+                if(time >= quarterTime && time < halfTime)
+                {
+                    timerProgress.color = Color.green;
+                }
+                else if(time >= halfTime && time < threeQuartersTime)
+                {
+                    timerProgress.color = Color.yellow;
+                }
+                else if(time >= threeQuartersTime) 
                 {
                     timerProgress.color = Color.red;
                 }
+
                 time += Time.deltaTime;
                 timerProgress.fillAmount = time / maxTime;
             }
@@ -50,5 +67,17 @@ public class TimerController : MonoBehaviour
     {
         isTriggered= false;
         time = 0;
+    }
+
+    private void CalculateTimerSegments()
+    {
+        quarterTime = maxTime / 4;
+        halfTime = maxTime / 2;
+        threeQuartersTime = (maxTime / 4) * 3;
+    }
+
+    private void SetDoneTime(float timeSegment)
+    {
+        doneTime = timeSegment;
     }
 }
