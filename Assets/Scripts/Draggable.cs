@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
+    //Event delegate for start dragging
+    public delegate void DragStartedDelegate(Draggable draggableObject);
+    public DragStartedDelegate dragStartedCallBack;
+
     //Event delegate for finished dragging
     public delegate void DragEndedDelegate(Draggable draggableObject);
     public DragEndedDelegate dragEndedCallBack;
@@ -19,6 +23,15 @@ public class Draggable : MonoBehaviour
     public virtual void OnMouseDown()
     {
         if (!isDraggable) return;
+
+        try
+        {
+            dragStartedCallBack(this);
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.Log(e.Message);
+        }
 
         isDragged = true;
         mouseDragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

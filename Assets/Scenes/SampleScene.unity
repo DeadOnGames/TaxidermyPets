@@ -2356,23 +2356,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1296641620 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3206660135058651729, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
-  m_PrefabInstance: {fileID: 7769077655158667760}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1296641625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1296641620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b2c9f7944adbaf4399e0dc443e4367f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1323391084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4448,14 +4431,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 839494438927027385, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -345.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 839494438927027385, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -236.24
-      objectReference: {fileID: 0}
     - target: {fileID: 3206660135058651729, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
@@ -4540,13 +4515,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6968824515701358462, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3206660135058651729, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1296641625}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
 --- !u!1001 &8944904894293616732
 PrefabInstance:

@@ -12,9 +12,18 @@ public class SnapController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        foreach(Draggable draggable in draggableObjects) 
+        foreach (Draggable draggable in draggableObjects)
         {
+            draggable.dragStartedCallBack = OnDragStarted;
             draggable.dragEndedCallBack = OnDragEnded;
+        }
+    }
+
+    public void OnDragStarted(Draggable draggable)
+    {
+        foreach (Transform snapPoint in snapPoints)
+        {
+            snapPoint.GetComponent<SnapPoint>().Release();
         }
     }
 
@@ -25,7 +34,7 @@ public class SnapController : MonoBehaviour
 
         foreach (Transform snapPoint in snapPoints)
         {
-            snapPoint.GetComponent<SnapPoint>().Release();
+            //snapPoint.GetComponent<SnapPoint>().Release();
             float currentDistance = Vector2.Distance(draggable.transform.localPosition, snapPoint.localPosition);
             if (closestSnapPoint == null || currentDistance < closestDistance)
             {
@@ -34,7 +43,8 @@ public class SnapController : MonoBehaviour
             }
         }
 
-        if(closestSnapPoint != null && closestDistance <= snapRange) 
+        //Snap the draggable to the snap point
+        if (closestSnapPoint != null && closestDistance <= snapRange)
         {
             draggable.transform.localPosition = closestSnapPoint.localPosition;
             closestSnapPoint.gameObject.GetComponent<SnapPoint>().Snap(draggable);

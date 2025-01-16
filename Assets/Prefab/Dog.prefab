@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 95294086826898570}
   - component: {fileID: 5067922392246010468}
   - component: {fileID: 334688750119451996}
+  - component: {fileID: 7293311622918788984}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -192,3 +193,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skinnedAnimalPrefab: {fileID: 3588424729588735784, guid: 4428acdb647a9324099b0e5046d1b57b, type: 3}
+--- !u!114 &7293311622918788984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3588424729588735784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d02f72c1737e3438d886c93b8d8111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  perfectWashingTime: 0
+  perfectStuffingTime: 0
