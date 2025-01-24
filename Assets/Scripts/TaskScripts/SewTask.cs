@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class SewTask : BaseTask
 {
-    private List<Button> buttons = new List<Button>();
-    public SewTask(List<Button> buttons, GameObject canvas, UnityEvent onEndTask) : base(canvas, onEndTask)
+    
+    public SewTask(GameObject canvas, UnityEvent onEndTask) : base(canvas, onEndTask)
     {
-        this.buttons = buttons;
+        
     }
 
     public override void BeginTask()

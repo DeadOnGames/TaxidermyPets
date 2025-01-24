@@ -53,6 +53,12 @@ public class TimerController : MonoBehaviour
             }
         }
     }
+
+    public float GetCurrentTime()
+    {
+        return time;
+    }
+
     public void StartTimer()
     {
         isTriggered = true;

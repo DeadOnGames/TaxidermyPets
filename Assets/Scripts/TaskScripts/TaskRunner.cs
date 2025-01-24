@@ -20,7 +20,7 @@ public class TaskRunner : MonoBehaviour
                 currentTask = new SliderTask(slider, canvas, onEndTask);
                 break;
             case TaskType.SewTask:
-                //currentTask = new SewTask(canvas);
+                currentTask = new SewTask(canvas, onEndTask);
                 break;
         }
     }
