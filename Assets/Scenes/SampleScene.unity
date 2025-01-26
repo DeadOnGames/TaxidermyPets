@@ -276,7 +276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &251668962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4856,6 +4856,10 @@ PrefabInstance:
     - target: {fileID: 7219040883658247617, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       propertyPath: m_Name
       value: DraggableScalpel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219040883658247617, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: m_TagString
+      value: Scalpel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
