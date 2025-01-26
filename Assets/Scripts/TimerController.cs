@@ -71,7 +71,7 @@ public class TimerController : MonoBehaviour
 
     public void ResetTimer()
     {
-        isTriggered= false;
+        isTriggered = false;
         time = 0;
     }
 

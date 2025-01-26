@@ -34,7 +34,7 @@ public class TimedSnapPoint : SnapPoint
                 scoreKeeper.AddToWashingTime(associatedTimer.GetCurrentTime());
                 break;
             case TimedSnapPointType.stuffing:
-                scoreKeeper.RecordStuffingTime(associatedTimer.GetCurrentTime());
+                scoreKeeper.AddStuffingTime(associatedTimer.GetCurrentTime());
                 break;
         }
                 

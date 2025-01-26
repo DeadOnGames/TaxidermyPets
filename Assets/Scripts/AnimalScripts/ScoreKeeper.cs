@@ -18,9 +18,13 @@ public class ScoreKeeper : MonoBehaviour
         currentWashingTime += washingTime;
     }
 
-    public void RecordStuffingTime(float stuffingTime)
+    public void AddStuffingTime(float stuffingTime)
     {
         currentStuffingTime += stuffingTime;
     }
 
+    public void CalculatePointsFromTimer(float actualTime, float idealTime)
+    {
+        
+    }
 }
