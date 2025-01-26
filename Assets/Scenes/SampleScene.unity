@@ -4765,6 +4765,94 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8333205199716333188}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8333205199716333188}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8333205199716333188}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_IsFacingTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ReturnToOriginalPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_IsFacingTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LookInADirection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: LookInADirection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LookInADirection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063668930337641265, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
+      propertyPath: OnDragStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7219040883658247617, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       propertyPath: m_Name
       value: DraggableScalpel
@@ -4774,11 +4862,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7219040883658247617, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8333205199716333188}
+      insertIndex: 2
+      addedObject: {fileID: 8333205199716333189}
     - targetCorrespondingSourceObject: {fileID: 7219040883658247617, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8333205199716333189}
+      addedObject: {fileID: 8333205199716333188}
   m_SourcePrefab: {fileID: 100100000, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
 --- !u!1001 &7769077655158667760
 PrefabInstance:
@@ -4894,7 +4982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 382973714}
-  isFacingTarget: 0
   damping: 10
   offsetAngle: 132
 --- !u!50 &8333205199716333189

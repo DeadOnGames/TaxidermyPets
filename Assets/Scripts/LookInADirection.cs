@@ -7,13 +7,22 @@ using static UnityEngine.GraphicsBuffer;
 public class LookInADirection : MonoBehaviour
 {
     public GameObject target;
-    public bool isFacingTarget;
+    public bool IsFacingTarget {  get; set; }
     public float damping = 5;
     public int offsetAngle = 0;
 
+    private Vector2 originalPosition;
+    private Quaternion originalRotation;
+
+    private void Start()
+    {
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
+    }
+
     private void Update()
     {
-        if (isFacingTarget)
+        if (IsFacingTarget)
             FaceTarget();
     }
 
@@ -24,5 +33,11 @@ public class LookInADirection : MonoBehaviour
 
         Quaternion targetRotation = Quaternion.Euler(0, 0, angle);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * damping);
+    }
+
+    public void ReturnToOriginalPosition()
+    {
+        transform.position = originalPosition;
+        transform.rotation = originalRotation;
     }
 }

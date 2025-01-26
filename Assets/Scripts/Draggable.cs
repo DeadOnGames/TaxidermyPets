@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Draggable : MonoBehaviour
 {
@@ -9,9 +10,19 @@ public class Draggable : MonoBehaviour
     public delegate void DragStartedDelegate(Draggable draggableObject);
     public DragStartedDelegate dragStartedCallBack;
 
+    // UnityEvent for drag start
+    [Serializable]
+    public class DragStartEvent : UnityEvent<Draggable> { }
+    public DragStartEvent OnDragStart;
+
     //Event delegate for finished dragging
     public delegate void DragEndedDelegate(Draggable draggableObject);
     public DragEndedDelegate dragEndedCallBack;
+
+    // UnityEvent for drag end
+    [Serializable]
+    public class DragEndEvent : UnityEvent<Draggable> { }
+    public DragEndEvent OnDragEnd;
 
     private bool isDragged;
     private bool isDraggable = true;
@@ -32,6 +43,8 @@ public class Draggable : MonoBehaviour
         {
             Debug.Log(e.Message);
         }
+
+        OnDragStart?.Invoke(this);
 
         isDragged = true;
         mouseDragStartPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -59,7 +72,7 @@ public class Draggable : MonoBehaviour
         {
             Debug.Log(e.Message);
         }
-        
+        OnDragEnd?.Invoke(this);
     }
 
     public void TeleportAnimal(Vector3 destination)
