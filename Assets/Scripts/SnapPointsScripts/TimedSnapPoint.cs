@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static TaskRunner;
 
 public class TimedSnapPoint : SnapPoint
 {
-    public TimerController AssociatedTimer;
+    public TimerController associatedTimer;
+    public enum TimedSnapPointType { washing, stuffing };
+    public TimedSnapPointType type;
+
 
     public override void Snap(Draggable objectToSnap)
     {
@@ -12,17 +16,29 @@ public class TimedSnapPoint : SnapPoint
         {
             base.Snap(objectToSnap);
             objectToSnap.transform.position = transform.position; // Snap into position
-            if (AssociatedTimer != null)
+            if (associatedTimer != null)
             {
-                AssociatedTimer.StartTimer();
+                associatedTimer.StartTimer();
             }
         }
     }
 
-    public override void Release()
+    public override void Release(Draggable objectToRelease)
     {
-        base.Release();
-        AssociatedTimer.PauseTimer();
+        base.Release(objectToRelease);
+        var scoreKeeper = objectToRelease.GetComponent<ScoreKeeper>();
+
+        switch (type)
+        {
+            case TimedSnapPointType.washing:
+                scoreKeeper.AddToWashingTime(associatedTimer.GetCurrentTime());
+                break;
+            case TimedSnapPointType.stuffing:
+                scoreKeeper.RecordStuffingTime(associatedTimer.GetCurrentTime());
+                break;
+        }
+                
+        associatedTimer.ResetTimer();
     }
 }
 

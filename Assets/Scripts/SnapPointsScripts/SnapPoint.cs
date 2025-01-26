@@ -14,7 +14,7 @@ public abstract class SnapPoint : MonoBehaviour
         Debug.Log($"Snap point {id} has been triggered");
     }
 
-    public virtual void Release()
+    public virtual void Release(Draggable objectToSnap)
     {
         if (isTriggered) isTriggered = false;
     }

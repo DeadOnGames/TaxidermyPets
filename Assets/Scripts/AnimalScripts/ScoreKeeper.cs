@@ -13,14 +13,14 @@ public class ScoreKeeper : MonoBehaviour
     public float perfectWashingTime = 0;
     public float perfectStuffingTime = 0;
 
-    public void RecordWashingTime(float washingTime)
+    public void AddToWashingTime(float washingTime)
     {
-        currentWashingTime = washingTime;
+        currentWashingTime += washingTime;
     }
 
     public void RecordStuffingTime(float stuffingTime)
     {
-        currentStuffingTime = stuffingTime;
+        currentStuffingTime += stuffingTime;
     }
 
 }

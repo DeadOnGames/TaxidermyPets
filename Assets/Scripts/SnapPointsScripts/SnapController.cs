@@ -21,9 +21,15 @@ public class SnapController : MonoBehaviour
 
     public void OnDragStarted(Draggable draggable)
     {
-        foreach (Transform snapPoint in snapPoints)
+        //Instead of releasing every snap point, only release the current triggered snap point 
+        foreach (Transform point in snapPoints)
         {
-            snapPoint.GetComponent<SnapPoint>().Release();
+            var snapPoint = point.GetComponent<SnapPoint>();
+
+            if (snapPoint.isTriggered)
+            {
+                snapPoint.Release(draggable);
+            }
         }
     }
 

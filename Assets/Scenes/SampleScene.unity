@@ -817,7 +817,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.97
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7
   isTriggered: 0
-  AssociatedTimer: {fileID: 842755958}
+  associatedTimer: {fileID: 842755958}
 --- !u!212 &530724369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1594,7 +1594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 24.988}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: 166}
+  m_AnchoredPosition: {x: -860, y: 431}
   m_SizeDelta: {x: 75.05219, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857602721
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   isTriggered: 0
-  AssociatedTimer: {fileID: 877095919}
+  associatedTimer: {fileID: 877095919}
 --- !u!1 &1150520086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,7 +3085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 325, y: -209}
+  m_AnchoredPosition: {x: 912, y: -494}
   m_SizeDelta: {x: 59.183044, y: 48.36319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550958677
@@ -3272,11 +3272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3512358846464912705, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -600
+      value: -1774
       objectReference: {fileID: 0}
     - target: {fileID: 3512358846464912705, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3512358846464912705, guid: 2ab492b2d45e9f343873636c71627995, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
