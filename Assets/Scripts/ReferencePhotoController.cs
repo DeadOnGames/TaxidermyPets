@@ -20,7 +20,7 @@ public class ReferencePhotoController : MonoBehaviour
         if (!isExpanded)
         {
             transform.localScale *= scaleMultiplier;
-            transform.localPosition = originalPosition + new Vector3(30,-30,0);
+            transform.localPosition = originalPosition + new Vector3(50,-50,0);
             isExpanded = true;
         }
         else

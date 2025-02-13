@@ -6,8 +6,8 @@ using UnityEngine.Events;
 public class CutPointController : MonoBehaviour
 {
     public List<GameObject> cutPoints = new List<GameObject>();
-    public int numOfCutPoints;
-    public int numOfCutPointsTriggered;
+    private int numOfCutPoints;
+    private int numOfCutPointsTriggered;
 
     public UnityEvent OnCutAllPoints;
 

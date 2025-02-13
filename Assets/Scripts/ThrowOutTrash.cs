@@ -1,17 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class ThrowOutTrash : MonoBehaviour
 {
     public float duration = 1f;
-    public Vector3 moveAway = new Vector3(-50, 0, 0);
+    public Transform destination;
 
-    public void OnColliderEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Waste")
+        if (collision.collider.tag.Equals("Waste"))
         {
             StartCoroutine(ThrowOut(collision.gameObject));
         }
@@ -19,30 +16,23 @@ public class ThrowOutTrash : MonoBehaviour
 
     private IEnumerator ThrowOut(GameObject item)
     {
-        //Transport object away
+        // Transport object to destination
         Vector3 startPosition = item.transform.position;
+        Vector3 endPosition = destination.position;
         float elapsedTime = 0f;
-
-        Camera mainCamera = Camera.main;
 
         while (elapsedTime < duration)
         {
-            Vector3 newPosition = Vector3.Lerp(startPosition, startPosition + new Vector3(10, 0, 0), elapsedTime / duration);
-
-            Vector3 viewportPoint = mainCamera.WorldToViewportPoint(newPosition);
-            if (viewportPoint.x < 0 || viewportPoint.x > 1 || viewportPoint.y < 0 || viewportPoint.y > 1)
-            {
-                item.transform.position += moveAway;
-                yield break;
-            }
-
-            item.transform.position = newPosition;
+            // Move the item towards the destination smoothly
+            item.transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
-
             yield return null;
         }
-        
-        //TODO: Destroy object - could use object pooling in future
-        Destroy(gameObject);
+
+        // Ensure the object reaches the exact destination
+        item.transform.position = endPosition;
+
+        // Optionally disable the renderer after reaching the destination
+        item.GetComponent<Renderer>().enabled = false;
     }
 }
