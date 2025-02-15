@@ -1073,6 +1073,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff757efdeb10e3343a1f4fa2027fa710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &382973725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3155984224524955142, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
+  m_PrefabInstance: {fileID: 940004342918155625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382973714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a90b0a7d887914380de26aeb598261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &454072905
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,6 +5931,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 382973725}
+        m_TargetAssemblyTypeName: AnimalController, Assembly-CSharp
+        m_MethodName: ActivateEyeBallCollider
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1996657260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6396,10 +6419,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 95294086826898570, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3422960342209073559, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.34
