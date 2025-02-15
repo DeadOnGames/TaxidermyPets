@@ -33,8 +33,8 @@ public class AccessoryController : MonoBehaviour
     public void DropAccessory()
     {
         var positionAtDrop = patrollingChildItem.GetComponent<Transform>().position;
-        dropButton.SetActive(true);
-        patrollingPrefab.SetActive(true);
+        dropButton.SetActive(false);
+        patrollingPrefab.SetActive(false);
 
         var droppedAccessory = Instantiate(currentDropItem.prefab);
         droppedAccessory.transform.position = positionAtDrop;

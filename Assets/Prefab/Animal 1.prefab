@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 7293311622918788984}
   m_Layer: 0
   m_Name: Animal 1
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1361,8 +1361,6 @@ MonoBehaviour:
   - {fileID: 7514542863331838365}
   - {fileID: 4496823990250719913}
   - {fileID: 6169826713499122010}
-  numOfCutPoints: 0
-  numOfCutPointsTriggered: 0
   OnCutAllPoints:
     m_PersistentCalls:
       m_Calls:

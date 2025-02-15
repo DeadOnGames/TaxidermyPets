@@ -353,11 +353,11 @@ RectTransform:
   m_LocalScale: {x: 0.15331493, y: 0.15331493, z: 0.15331493}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1844626025}
+  m_Father: {fileID: 744286244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -340.03, y: -236.7001}
+  m_AnchoredPosition: {x: -336, y: -236.7001}
   m_SizeDelta: {x: 12.5, y: 12.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252893810
@@ -1310,7 +1310,7 @@ Transform:
   m_GameObject: {fileID: 530724366}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.29, y: 1.3, z: -0.019801289}
+  m_LocalPosition: {x: 18.699974, y: 1.350003, z: -0.019801289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1735,6 +1735,7 @@ RectTransform:
   m_LocalScale: {x: 0.06693159, y: 0.10123404, z: 0.10123404}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 252893809}
   - {fileID: 1996657258}
   m_Father: {fileID: 312329021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2752,7 +2753,7 @@ Transform:
   m_GameObject: {fileID: 1131195357}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5660179, y: 1.2713482, z: -0.019801289}
+  m_LocalPosition: {x: 9.24, y: 2.72, z: -0.019801289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5411,8 +5412,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.06693159, y: 0.10123404, z: 0.10123404}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 252893809}
+  m_Children: []
   m_Father: {fileID: 1527983516}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6396,6 +6396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 95294086826898570, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3422960342209073559, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.34
@@ -6554,11 +6558,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 46129148028931809, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.34
+      value: -5.85
       objectReference: {fileID: 0}
     - target: {fileID: 46129148028931809, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 3.32
       objectReference: {fileID: 0}
     - target: {fileID: 46129148028931809, guid: b2601772a80c9ce4eaac09f92dd8ccdd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6707,9 +6711,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 839494438927027385, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -340.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 839494438927027385, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -236.19
+      objectReference: {fileID: 0}
     - target: {fileID: 3206660135058651729, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128278918088999674, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -349.82602
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128278918088999674, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -238.55135
       objectReference: {fileID: 0}
     - target: {fileID: 6364973178912946209, guid: 9346688dc1e465447b7a5f24eb35528a, type: 3}
       propertyPath: m_Pivot.x

@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 787532126908356373}
   - component: {fileID: 6386500252515983386}
   - component: {fileID: 1693892581136382230}
+  - component: {fileID: 8535059713756404961}
   m_Layer: 0
   m_Name: Eye
   m_TagString: Untagged
@@ -134,7 +135,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 75c12af6d450c0d4698175789506949a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -180,3 +181,15 @@ CircleCollider2D:
   m_Offset: {x: 0.0000018881794, y: 0}
   serializedVersion: 2
   m_Radius: 0.09713091
+--- !u!114 &8535059713756404961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652925004100539536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c09969aa92460e4b9d2ed05962ef809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
