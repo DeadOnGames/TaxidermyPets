@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 768620263578597565}
   m_Layer: 0
-  m_Name: Bin
+  m_Name: GrossBin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1351421373, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
+  m_Sprite: {fileID: 1497792960, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -165,5 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022c865ce9fd57641b9fc4ecf30cf9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  binOpen: {fileID: 710486569, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
-  binClosed: {fileID: -1351421373, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
+  binOpen: {fileID: 1497792960, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
+  binClosed: {fileID: 1351328447, guid: b24587eef5dc75746ab0b71e2a02ec4a, type: 3}
