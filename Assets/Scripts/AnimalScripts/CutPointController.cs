@@ -30,7 +30,16 @@ public class CutPointController : MonoBehaviour
         if (numOfCutPointsTriggered.Equals(numOfCutPoints))
         {
             Debug.Log("Animal skin fully cut off");
+            HideCutPoints();
             OnCutAllPoints.Invoke();
         } 
+    }
+
+    public void HideCutPoints()
+    {
+        foreach (GameObject cutPoint in cutPoints)
+        {
+            cutPoint.SetActive(false);
+        }
     }
 }

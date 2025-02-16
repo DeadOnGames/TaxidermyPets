@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1f1d05711e946f479268c84385f0699
+guid: 026b75327a0ad564ead2e332d6490550
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,97 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WashingMachineAndConveyor_0
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 60
-        width: 50
-        height: 52
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 889169134342fce48bdd0f00aa492baa
-      internalID: -31033810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_1
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 60
-        width: 50
-        height: 52
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf79e31bb48e8044491ad5d96681a751
-      internalID: 635032677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_2
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 60
-        width: 50
-        height: 52
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 320e5627c307d9e4e82ed95dff0b46b7
-      internalID: -616877822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_3
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 60
-        width: 50
-        height: 52
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0785de53c1ecf734a9a5b62864afc2d8
-      internalID: 369327016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_4
+      name: Tools_0
       rect:
         serializedVersion: 2
         x: 4
-        y: 32
-        width: 71
-        height: 13
+        y: 47
+        width: 50
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,71 +137,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b8bf9aac9dc224ca5db06ad0f6a0e9
-      internalID: 1250735907
+      spriteID: b13eb1755f669224c878996605b9ba53
+      internalID: 1874058886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WashingMachineAndConveyor_5
+      name: Tools_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 32
-        width: 71
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 60
+        y: 47
+        width: 67
+        height: 52
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 502109f3d6a664e42ad54154fdf77b01
-      internalID: 1234283865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_6
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 32
-        width: 71
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a82c50d61416f3542aece176a5c68241
-      internalID: -816955045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WashingMachineAndConveyor_7
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 32
-        width: 71
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5add0df626aea3148b34ddd5751264bb
-      internalID: -1669720636
+      spriteID: 5f38be5ea42154044978f01b5541e997
+      internalID: 837441466
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WashingMachineAndConveyor_0: -31033810
-      WashingMachineAndConveyor_1: 635032677
-      WashingMachineAndConveyor_2: -616877822
-      WashingMachineAndConveyor_3: 369327016
-      WashingMachineAndConveyor_4: 1250735907
-      WashingMachineAndConveyor_5: 1234283865
-      WashingMachineAndConveyor_6: -816955045
-      WashingMachineAndConveyor_7: -1669720636
+      Tools_0: 1874058886
+      Tools_1: 837441466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
