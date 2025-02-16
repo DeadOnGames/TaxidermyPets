@@ -5,10 +5,10 @@ using UnityEngine.Events;
 
 public class CutPointController : MonoBehaviour
 {
-    public List<GameObject> cutPoints = new List<GameObject>();
-    private int numOfCutPoints;
-    private int numOfCutPointsTriggered;
+    public int numOfCutPoints {  get; private set; }
+    public int numOfCutPointsTriggered {  get; private set; }
 
+    public List<GameObject> cutPoints = new List<GameObject>();
     public UnityEvent OnCutAllPoints;
 
     // Start is called before the first frame update
