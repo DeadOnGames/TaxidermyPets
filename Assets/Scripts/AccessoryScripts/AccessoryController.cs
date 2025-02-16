@@ -9,6 +9,7 @@ public class AccessoryController : MonoBehaviour
     public GameObject patrollingPrefab;
     public GameObject patrollingChildItem;
 
+    public List<AccessoryScriptableObject> eyePrefabs;
 
     private SpriteRenderer patrollingItemImage;
 
@@ -28,6 +29,22 @@ public class AccessoryController : MonoBehaviour
         currentDropItem = accessory;
 
         patrollingItemImage.sprite = currentDropItem.accessorySprite;
+    }
+
+    public void SelectRandomCurrentItem()
+    {
+        dropButton.SetActive(true);
+        patrollingPrefab.SetActive(true);
+        currentDropItem = eyePrefabs[ChooseRandomEye()];
+        //currentDropItem = accessory;
+
+        patrollingItemImage.sprite = currentDropItem.accessorySprite;
+    }
+
+    private int ChooseRandomEye()
+    {
+        int rnd = Random.Range(0, eyePrefabs.Count);
+        return rnd;
     }
 
     public void DropAccessory()

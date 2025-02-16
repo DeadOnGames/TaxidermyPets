@@ -20,7 +20,8 @@ public class AccessoryButton : MonoBehaviour
         {
             if (accessoryController.dropButton.activeSelf == false)
             {
-                accessoryController.SelectCurrentItem(accessoryObject);
+                //accessoryController.SelectCurrentItem(accessoryObject);
+                accessoryController.SelectRandomCurrentItem();
             }
             else
             {
@@ -28,5 +29,4 @@ public class AccessoryButton : MonoBehaviour
             }
         }
     }
-
 }
