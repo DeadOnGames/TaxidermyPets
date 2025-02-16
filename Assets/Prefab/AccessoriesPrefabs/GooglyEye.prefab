@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742147782770219193}
   m_Layer: 6
-  m_Name: GreenEyeBall
+  m_Name: GooglyEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 606275761, guid: 6655e3ea5b5b7cd4e9db0ff8c99f29c4, type: 3}
+  m_Sprite: {fileID: 22481420, guid: 6655e3ea5b5b7cd4e9db0ff8c99f29c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

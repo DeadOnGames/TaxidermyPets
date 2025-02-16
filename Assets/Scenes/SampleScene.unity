@@ -2652,6 +2652,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 787532126908356373, guid: 62fbea335ea901f4198235bbdfa9c185, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -946116674, guid: 6655e3ea5b5b7cd4e9db0ff8c99f29c4, type: 3}
     - target: {fileID: 5652925004100539536, guid: 62fbea335ea901f4198235bbdfa9c185, type: 3}
       propertyPath: m_Name
       value: Item
@@ -5993,6 +5997,14 @@ MonoBehaviour:
   eyePrefabs:
   - {fileID: 11400000, guid: e269c5f4284e2ce459d6286ea5fdeb9a, type: 2}
   - {fileID: 11400000, guid: 9392e33dce629404ab3ef49949b21972, type: 2}
+  - {fileID: 11400000, guid: dca4766712e849642b5594e82408aac1, type: 2}
+  - {fileID: 11400000, guid: 40406881dd00e8e4a8dab8624c8c8ea3, type: 2}
+  - {fileID: 11400000, guid: b54974b478853634db7f7cbf875bf1f3, type: 2}
+  - {fileID: 11400000, guid: bf375200b2d4a034e9e8e92c12ecb12d, type: 2}
+  - {fileID: 11400000, guid: 253f9c7d63eb2a24d8a457939b669caa, type: 2}
+  - {fileID: 11400000, guid: b49c23776f904144a9a248076a6911bc, type: 2}
+  - {fileID: 11400000, guid: 21ee01ca6a6fe00429b4639aaf0949e2, type: 2}
+  - {fileID: 11400000, guid: 5d9b83b1bcc4a6e40ae5ce30bce12a9b, type: 2}
 --- !u!1 &1996657257
 GameObject:
   m_ObjectHideFlags: 0

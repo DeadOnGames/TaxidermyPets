@@ -141,7 +141,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1643913458, guid: 11eddffa9da16df45a5e8a535ea925e6, type: 3}
+  m_Sprite: {fileID: -946116674, guid: 6655e3ea5b5b7cd4e9db0ff8c99f29c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -228,7 +228,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.0000018881794, y: 0}
   serializedVersion: 2
-  m_Radius: 0.09713091
+  m_Radius: 0.05
 --- !u!1 &8987286845384793213
 GameObject:
   m_ObjectHideFlags: 0
