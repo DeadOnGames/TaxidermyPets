@@ -30,4 +30,9 @@ public class TaskRunner : MonoBehaviour
     {
         currentTask?.BeginTask();
     }
+
+    public void EndTask()
+    {
+        currentTask?.EndTask();
+    }
 }

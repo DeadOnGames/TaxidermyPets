@@ -1,47 +1,62 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DrawLine : MonoBehaviour
 {
     private LineRenderer lineRenderer;
-    private bool canDrawLine;
-    private Vector3 initialPosition;
-    private Vector3 currentPosition;
+    private int pointCount = 0; 
+    private bool isDrawing = false; 
+    private Vector3 previewPosition;
+    [SerializeField] private int maxLinePoints;
 
     public Material lineMaterial;
-
-    public void SetCanDrawLine(bool canDraw) => canDrawLine = canDraw;
+    public UnityEvent onLineComplete;
 
     public void Start()
     {
         lineRenderer = gameObject.AddComponent<LineRenderer>();
         lineRenderer.material = lineMaterial;
-        lineRenderer.material.color = Color.blue;
+        lineRenderer.widthCurve = AnimationCurve.Constant(0, 1, 0.2f);
+        lineRenderer.positionCount = 0;
         lineRenderer.sortingOrder = 10;
-        lineRenderer.enabled = canDrawLine = false;
+        lineRenderer.numCornerVertices = 5;
+        lineRenderer.enabled = false;
     }
-    
+
     public void Update()
     {
-        //if (!canDrawLine) return;
-
         if (Input.GetMouseButtonDown(0))
         {
-            initialPosition = GetCurrentMousePosition().GetValueOrDefault();
-            lineRenderer.SetPosition(0, initialPosition);
-            lineRenderer.enabled = true;
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            currentPosition = GetCurrentMousePosition().GetValueOrDefault();
-            lineRenderer.SetPosition(1, currentPosition);
+            if (!isDrawing)
+            {
+                lineRenderer.positionCount = 1;
+                lineRenderer.SetPosition(0, GetCurrentMousePosition().GetValueOrDefault());
+                lineRenderer.enabled = true;
+                isDrawing = true;
+                pointCount = 1;
+            }
+            else
+            {
+                if (pointCount < maxLinePoints)
+                {
+                    pointCount++;
+                    lineRenderer.positionCount = pointCount;
+                    lineRenderer.SetPosition(pointCount - 1, GetCurrentMousePosition().GetValueOrDefault());
+                }
 
+                if (pointCount == maxLinePoints)
+                {
+                    isDrawing = false;
+                    onLineComplete.Invoke();
+                }
+            }
         }
-        else if (Input.GetMouseButtonUp(0))
+
+        if (isDrawing && pointCount < maxLinePoints)
         {
-            lineRenderer.enabled = false;
-            var releasePosition = GetCurrentMousePosition().GetValueOrDefault();
-            var direction = releasePosition - initialPosition;
-            Debug.Log("Process direction " + direction);
+            previewPosition = GetCurrentMousePosition().GetValueOrDefault();
+            lineRenderer.positionCount = pointCount + 1;
+            lineRenderer.SetPosition(pointCount, previewPosition);
         }
     }
 
@@ -54,10 +69,8 @@ public class DrawLine : MonoBehaviour
         if (plane.Raycast(ray, out rayDistance))
         {
             return ray.GetPoint(rayDistance);
-
         }
 
         return null;
     }
-
 }
