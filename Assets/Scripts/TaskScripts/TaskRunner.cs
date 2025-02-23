@@ -10,6 +10,7 @@ public class TaskRunner : MonoBehaviour
 
     public enum TaskType { ScalpelTask, SewTask }
     public TaskType taskType;
+    public UnityEvent onStartTask;
     public UnityEvent onEndTask;
 
     private void OnEnable()
@@ -17,10 +18,10 @@ public class TaskRunner : MonoBehaviour
         switch (taskType)
         {
             case TaskType.ScalpelTask:
-                currentTask = new SliderTask(slider, canvas, onEndTask);
+                currentTask = new SliderTask(slider, canvas, onStartTask, onEndTask);
                 break;
             case TaskType.SewTask:
-                currentTask = new SewTask(canvas, onEndTask);
+                currentTask = new SewTask(canvas, onStartTask, onEndTask);
                 break;
         }
     }

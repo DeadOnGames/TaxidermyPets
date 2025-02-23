@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SliderTask : BaseTask
 {
     private Slider slider;
-    public SliderTask(Slider slider, GameObject canvas, UnityEvent onEndTask) : base(canvas, onEndTask)
+    public SliderTask(Slider slider, GameObject canvas, UnityEvent onStartTask, UnityEvent onEndTask) : base(canvas, onStartTask, onEndTask)
     {
         this.slider = slider;
     }

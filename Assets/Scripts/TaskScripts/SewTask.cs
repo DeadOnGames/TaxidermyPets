@@ -6,8 +6,7 @@ using UnityEngine.UI;
 
 public class SewTask : BaseTask
 {
-    
-    public SewTask(GameObject canvas, UnityEvent onEndTask) : base(canvas, onEndTask)
+    public SewTask(GameObject canvas, UnityEvent onStartTask, UnityEvent onEndTask) : base(canvas, onStartTask, onEndTask)
     {
         
     }
