@@ -2,25 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReferencePhotoController : MonoBehaviour
+public class ReferenceCard : MonoBehaviour
 {
     private Vector3 originalScale;
     private Vector3 originalPosition;
 
     private bool isExpanded;
-    public float scaleMultiplier = 2;
+    private float scaleMultiplier = 3;
+
+    public CardController cardController;
+
+    public ReferenceCard()
+    {
+        isExpanded = false;
+    }
 
     private void Start()
     {
         originalScale = transform.localScale;
         originalPosition = transform.localPosition;
     }
+
     public void ExpandPhoto()
     {
         if (!isExpanded)
         {
             transform.localScale *= scaleMultiplier;
-            transform.localPosition = originalPosition + new Vector3(50,-50,0);
+            transform.localPosition = cardController.GetHighlightedPosition();
             isExpanded = true;
         }
         else
