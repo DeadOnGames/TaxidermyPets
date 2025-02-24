@@ -84,7 +84,8 @@ public class ScoreKeeper : MonoBehaviour
         gameManager.scoreUIElements.UpdateUIValues(pointsPerStation[0].ToString("0.00") + "%",
             pointsPerStation[1].ToString("0.00") + "%",
              pointsPerStation[2].ToString("0.00") + "%",
-                finalScore.ToString("0.00") + "%" + " Rank: " + CalculateGrade(finalScore));
+                finalScore.ToString("0.00") + "%",
+                CalculateGrade(finalScore).ToString());
     }
 
     private float CalculateCutPointsScore()
