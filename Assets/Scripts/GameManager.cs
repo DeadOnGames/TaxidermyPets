@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance; // A static reference to the GameManager instance
     public int NumberOfStations { get => numberOfStations; private set => numberOfStations = value; }
     public GameObject currentAnimal; //TODO: In future, instantiate this
-
+    public UIScoreDisplay scoreUIElements;
     
     void Awake()
     {

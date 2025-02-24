@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour
 {
+    private GameManager gameManager;
+
     private int totalPoints = 0;
 
     private float currentWashingTime = 0;
@@ -30,6 +32,11 @@ public class ScoreKeeper : MonoBehaviour
     }
 
     private List<float> pointsPerStation = new List<float> {0, 0, 0}; //Stores the total points for each station
+
+    public void Start()
+    {
+        gameManager = GameManager.Instance;
+    }
 
     public void AddToWashingTime(float washingTime)
     {
@@ -73,7 +80,11 @@ public class ScoreKeeper : MonoBehaviour
         }
         finalScore = sumOfScores / pointsPerStation.Count;
 
-        PrintScore();
+        //PrintScore();
+        gameManager.scoreUIElements.UpdateUIValues(pointsPerStation[0].ToString("0.00") + "%",
+            pointsPerStation[1].ToString("0.00") + "%",
+             pointsPerStation[2].ToString("0.00") + "%",
+                finalScore.ToString("0.00") + "%" + " Rank: " + CalculateGrade(finalScore));
     }
 
     private float CalculateCutPointsScore()
