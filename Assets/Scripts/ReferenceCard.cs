@@ -29,12 +29,19 @@ public class ReferenceCard : MonoBehaviour
         {
             transform.localScale *= scaleMultiplier;
             transform.localPosition = cardController.GetHighlightedPosition();
+
+            if (cardController.highlightedCard != null)
+            {
+                cardController.highlightedCard.ExpandPhoto();
+            }
+            cardController.highlightedCard = this;
             isExpanded = true;
         }
         else
         {
             transform.localScale = originalScale;
             transform.localPosition = originalPosition;
+            cardController.highlightedCard = null;
             isExpanded = false;
         }
         

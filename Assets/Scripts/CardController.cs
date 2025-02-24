@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CardController : MonoBehaviour
 {
-    private List<ReferenceCard> cards = new List<ReferenceCard> { null, null, null, null, null };
+    //private List<ReferenceCard> cards = new List<ReferenceCard> { null, null, null, null, null };
     [SerializeField] private Transform highlighedPosition;
+    public ReferenceCard highlightedCard = null;
 
     public void AddCard()
     {
