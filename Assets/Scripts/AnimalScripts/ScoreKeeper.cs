@@ -54,13 +54,9 @@ public class ScoreKeeper : MonoBehaviour
 
         //Bouns for all cut points
         pointsPerStation[0] = CalculateCutPointsScore();
-        //Throw out meat
-
 
         //Station 2
-        //Washing time
         float washingScore = CalculatePointsFromTimer(currentWashingTime, perfectWashingTime);
-        //Stuffing time
         float stuffingScore = CalculatePointsFromTimer(currentStuffingTime, perfectStuffingTime);
         float combinedScore = (washingScore * stuffingScore) / 100f;
         combinedScore = Mathf.Clamp(combinedScore, 0f, 100f);
@@ -68,6 +64,7 @@ public class ScoreKeeper : MonoBehaviour
 
         //Station 3
         //Sew up
+
         //Correct eye
         //Eye placement
         //Accessories
