@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AccessoryButton : MonoBehaviour
+public class EyeJarButton : MonoBehaviour
 {
     public bool isClicked;
     public AccessoryController accessoryController;
-    public AccessoryScriptableObject accessoryScriptableObj;
 
     public virtual void OnMouseDown()
     {
@@ -20,7 +19,11 @@ public class AccessoryButton : MonoBehaviour
         {
             if (accessoryController.dropButton.activeSelf == false)
             {
-                accessoryController.SelectCurrentItem(accessoryScriptableObj);
+                accessoryController.SelectRandomCurrentItem();
+            }
+            else
+            {
+                //TODO: Undo select
             }
         }
     }
