@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -9990779, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -150,6 +150,10 @@ PrefabInstance:
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -201,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.size
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: <SpriteIndex>k__BackingField
@@ -258,35 +262,35 @@ PrefabInstance:
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 1842974330, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -771418007, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[1].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -949500961, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -1777577227, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 235324996, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -9990779, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[3].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -9990779, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -99570802, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[4].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -99570802, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -739484478, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[5].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -739484478, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: 897869463, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[6].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 897869463, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: 1971055215, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[7].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 1971055215, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: -30883314, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[8].<Sprite>k__BackingField
       value: 
