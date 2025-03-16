@@ -16,6 +16,9 @@ public class CustomisableElement : MonoBehaviour
     [field: SerializeField]
     public int ColourIndex;
 
+    [SerializeField]
+    public List<SpriteRenderer> copyColourTo;
+
     [ContextMenu("Next sprite")]
     public PositionedSprite NextSprite()
     {
@@ -32,13 +35,29 @@ public class CustomisableElement : MonoBehaviour
         return spriteOptions[SpriteIndex];
     }
 
+    [ContextMenu("Update position modifier")]
+    private void UpdateSpritePositionModifier()
+    {
+        spriteOptions[SpriteIndex].PositionModifier = transform.localPosition;
+    }
+
     private void UpdateSprite()
     {
+        if (spriteOptions.Count == 0) return;
         SpriteIndex = Mathf.Clamp(SpriteIndex, 0, spriteOptions.Count - 1);
         PositionedSprite positionedSprite = spriteOptions[SpriteIndex];
         spriteRenderer.sprite = positionedSprite.Sprite;
 
         transform.localPosition = positionedSprite.PositionModifier;
+    }
+
+    private void UpdateColour()
+    {
+        if (colourOptions.Count == 0) return;
+        ColourIndex = Mathf.Clamp(ColourIndex, 0, colourOptions.Count - 1);
+        var newColour = colourOptions[ColourIndex];
+        spriteRenderer.color = newColour;
+        copyColourTo.ForEach(spiteRenderer => spiteRenderer.color = newColour);
     }
 
     [ContextMenu("Next colour")]
@@ -57,10 +76,7 @@ public class CustomisableElement : MonoBehaviour
         return colourOptions[ColourIndex];
     }
 
-    private void UpdateColour()
-    {
-        spriteRenderer.color = colourOptions[ColourIndex];
-    }
+    
 
     [ContextMenu("Randomise")]
     public void Randomise()
