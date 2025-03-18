@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CustomisableElement : MonoBehaviour
 {
+    [SerializeField]
+    private CustomisationType type;
+
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     [SerializeField] private List<PositionedSprite> spriteOptions;
@@ -18,6 +21,8 @@ public class CustomisableElement : MonoBehaviour
 
     [SerializeField]
     public List<SpriteRenderer> copyColourTo;
+
+    public Color CurrentColour => colourOptions.Count == 0 ? Color.white : colourOptions[ColourIndex];
 
     [ContextMenu("Next sprite")]
     public PositionedSprite NextSprite()
@@ -39,6 +44,11 @@ public class CustomisableElement : MonoBehaviour
     private void UpdateSpritePositionModifier()
     {
         spriteOptions[SpriteIndex].PositionModifier = transform.localPosition;
+    }
+
+    public CustomisationData GetCustomisationData()
+    {
+        return new CustomisationData(type, spriteOptions[SpriteIndex], spriteRenderer.color);
     }
 
     private void UpdateSprite()
