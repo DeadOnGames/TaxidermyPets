@@ -1,0 +1,2565 @@
+fileFormatVersion: 2
+guid: 40963cee5eef7be4093d2ba5bc297863
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterCustomisation_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 261
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caef9980a65e04438cc479e9885ea6c
+      internalID: 2021624082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 261
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52222699c94ae9046b8de1c5bb19a585
+      internalID: 627191832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 260
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a3dc77a87c2ee49b9222707805d917
+      internalID: 1313562470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 257
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cec05d9172c4e45acdf2eaf9592ae1
+      internalID: -1242331045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 257
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32305e6e62056344a1b7f3a4e119b9d
+      internalID: 1379894092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 257
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f135bea6c9e2147bbf5feb83ce3894
+      internalID: -1433932899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 254
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bc273367e9134e8fb7c69afd3cd2a
+      internalID: -2141604120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7318b2fc6d2f7ef478c089e7a741fe36
+      internalID: 1475025052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 241
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a0decb13e1e34881bcb969722a0e6
+      internalID: -1782636434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 240
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad314a7d44d981d40bfd378d3245e971
+      internalID: 500226869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 254
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f8d9a0a63deb0408b20dd07e1dac24
+      internalID: 1024001182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 241
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9e7d54ce463a043b2b1024b4f9a6ee
+      internalID: -1914251679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 241
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de50d2b4475b845bb45c6d66e092e2
+      internalID: 952004993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 241
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b79d1ff5c147a44b4d7d7ff898a143
+      internalID: -1896130190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 238
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffb458c2b1f4264092f395d7d26c7a0
+      internalID: 584204256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 238
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea48fb0a3af8f194b9b116dbcee91c01
+      internalID: 156943374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 221
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc6c8d067bcd7245bfab3d1e07b0e8e
+      internalID: 229417519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 221
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56777ab567f2305458cd89d629486bdf
+      internalID: -1621966204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 220
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e988311575a7541b2a012966d93dfd
+      internalID: -473096793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 225
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e92d848a7d83f46b2d24f1020a1d59
+      internalID: 1842545867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 225
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8221ce206ed51e444a838e229450cf4b
+      internalID: -1466555581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 225
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564c3e3df775d2747b4fbd7ec101441b
+      internalID: -587448159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 222
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1444bd2a5a1bbf74cae166655a44df54
+      internalID: 32763185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 222
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec03789f5d079647a1a158dc636b008
+      internalID: -409860752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 177
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91385b9617cb5342afc5774ed481a0d
+      internalID: -865000237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 177
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e71588ff819f64e86c23db946905ed
+      internalID: 1239487917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_26
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 177
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be15f6cbd912b3441b372d7eb04f7b77
+      internalID: -1127885516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_27
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 199
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d21f84361efc8b49b403b57acfcde9e
+      internalID: 1308402199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 199
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa195152a3265844ea2aacf548f1629e
+      internalID: 423894187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1a00733a0b714eb7a87de33355d90
+      internalID: 740305524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 206
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91664c5251107444eb5f3f560f779676
+      internalID: 1202487974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 206
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea1bcf957068ce41bdffdb79d3cdca7
+      internalID: -260647742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 186
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dff0119e50cd884dbf914ed1fd65011
+      internalID: 432167890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_36
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 190
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8364cbfb3c5344bb0f9e35f224bbc
+      internalID: -111512333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_38
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 190
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eb23a45b22f4e458695d696b5f1490
+      internalID: 147250314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 176
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600fd08792e9f75479ae8454dc5fa525
+      internalID: -1635515919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_40
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 176
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94d8e0b9d312924fa0f0ec5e7845f7d
+      internalID: -1679718606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 176
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156be37edf28b5d46b0716d72505c1c1
+      internalID: 1680779788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 174
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fccb15edefca6c44a2170a33dc8e37a
+      internalID: 1127578468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 158
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8daf7f67bbad64381ad67f6cf704fc
+      internalID: 404074080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_45
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 158
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346c83cb64c5148499a4c9ac63613bc5
+      internalID: 1267028626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 139
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75180324988b13a42a510159bd291d04
+      internalID: 1381543331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 140
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242dda98c5755504b9d4b6005969f5a1
+      internalID: -1286829628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_48
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 141
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d58ad46938e7347bea84af0b7300cf
+      internalID: -1427931352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 152
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6784b4eb2af0d479bab8479faf2824
+      internalID: -791919382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_50
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 152
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5419d20e78e940860db1e9fd3b2d1
+      internalID: 1936794806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 152
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f732346d411ad14aa07d579bdab797b
+      internalID: 317705633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_52
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 127
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898cbfec7436698489a79b2075f4c3b5
+      internalID: -275220936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_53
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0eba0aacf8bb44910a2b048ebe68a
+      internalID: -2051941270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_54
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 127
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3535a47a3dcf3a46ac2071d2b0c1030
+      internalID: -2074294711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 103
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc4532ffb6907c4998d410332c2d9a6
+      internalID: 1146835197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_56
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 104
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1859c7bf40d53a64ab91416b54349b70
+      internalID: 34484678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 105
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453abae56d93c464b862bed601ad9d62
+      internalID: 1163942653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 115
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2955b832850aad4c8de48640ae44dbe
+      internalID: 204070221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_59
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 130
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dd94f842106e644aba800e15934402
+      internalID: -1696397868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_60
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 130
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76610e431820cce419c8bf7a7063e3d3
+      internalID: 1310699392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_61
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 116
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa56b7a46da91446b3ed320b17f35e1
+      internalID: -648989117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_62
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 130
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebd68e5f6d3d45449fb249feb1bd829
+      internalID: -925015139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 130
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b53912f43c0744b7c4e4edd9a4eab
+      internalID: -847887897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_64
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 123
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950749d03c58dd04294373ddeafc232f
+      internalID: -963783614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_65
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 123
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b12944121b0344982e9d98c67af609
+      internalID: 1613133836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_66
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 123
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8398af8f985e5974590a74d00f388192
+      internalID: 1456464024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 123
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aa77084f5c09f46a8670275b5a2d44
+      internalID: -866928308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_68
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 123
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc31840457905644851ce21464f1315
+      internalID: 1855254684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_69
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 123
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f050eefecd54941ac9f9748ac5af2e
+      internalID: -1667455858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_70
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 95
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01de22c0097eb7b459dfc338794890eb
+      internalID: -1665375546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_71
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f597b8c96ce34aab7a2e28ea160fb
+      internalID: -389770324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_72
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 116
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608fe7b3c3af5c4dadaeb66866428e7
+      internalID: 1532561283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 116
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42cae95d97fc9a4f943b2473de0e1c9
+      internalID: -1654736541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_74
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 116
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0e360dfb78714f8cbc1eca684f30c
+      internalID: 850353279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_75
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 116
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8caedcb9836624a8dd12e6c2d8881d
+      internalID: 1387085425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_76
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 116
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278aab67fa963c543b0986a05281805a
+      internalID: -1539299121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_77
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 95
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb032f68f52ff324ba7397b391187168
+      internalID: -635725323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 95
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247c039e89039a8459bb4b6216fcd303
+      internalID: 1831218146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_79
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76f412af6ca7ce48a12e196f730c04f
+      internalID: 590249180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_80
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa16bdf1628c6459fd370cdd734334
+      internalID: 689201607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_81
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f418bca40f5043a3dabbfa9e2bd92
+      internalID: -1986805022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_82
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6bbf34caef47f45a4180c14cded1a8
+      internalID: 1305594127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_83
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac93338d7b99a840b715ac41ef1335c
+      internalID: 1511344020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_84
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb806ea2851b604faf3c322e597536a
+      internalID: -1703534642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_85
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608d3ada08196449adf20a9f42082e3
+      internalID: -516387455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_86
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 70
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed22a2deb3f4846a5d610ea09f5c01
+      internalID: 357842535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59f0ca0f8fcd134daae7eda87b5e92c
+      internalID: -1692530033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_88
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 70
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ebf42bc9bd684e8e9cc5c22f222ae
+      internalID: 1067962482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f578264416a1d44a8e7934d172998f0
+      internalID: 714197231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_90
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 70
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf507958440ae14bb85c7b7c32a3be9
+      internalID: -360352017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89960c00361ed41b9035b3860b510e
+      internalID: 243811334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_92
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ead09f15bd6f6a428ea032db80d53fe
+      internalID: -1599230289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_93
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c323585b6a9546b114ab702dcc3be
+      internalID: 1731323534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_94
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64156c6ead36dd54591b3b285edab49f
+      internalID: 2122627320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317ece31892fc9141b050fabcfb1d2b4
+      internalID: -1471048682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_96
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca277fb5e991d429d9fd7561e4462b
+      internalID: 1825505993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_97
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8e53352ee5ac04883e6061456a3536
+      internalID: -1679730000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_98
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8d3bb3293961b438758985597e2ebd
+      internalID: -92760112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_99
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee52820c18c594bb950fd2fbf7e5c8
+      internalID: -1005918127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_100
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 14
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e40988b97aa87459ed956ae7660b13
+      internalID: 287292840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_101
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52921633124e2347ae8d69bb24dbd2e
+      internalID: -1807336017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_102
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23e42e498eaf74d812fd8848ac0630
+      internalID: -1621745827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_103
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 39
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3a8f8257270e47bae88f540c60635
+      internalID: -214293292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_104
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ea329ee85264c428817cfa02d5630d
+      internalID: -391342028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd48352f50054d4d90ab139d104ad83
+      internalID: -190593901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_106
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 39
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93c7a38786517479efb5d71f36aae4
+      internalID: 1263042985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_107
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665c7ee4d7ab19549971eac0bad2016d
+      internalID: -106862339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_108
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0ad6b72f73e14ba757d7ff453f918
+      internalID: 1433308146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_109
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93bd7693144c348bf8e6c04c3c30da
+      internalID: 1469420038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 14
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0a20cf742bc5246827d8bc4a0865f1
+      internalID: -1322625212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_111
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 14
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe6f8ee3b571f74ab866464ea2a0b23
+      internalID: -1673575195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_112
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2be97367741ab4fbe6b4c668fd462e
+      internalID: 1372127157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_113
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29f87bd0be1ff448a32e45e11d44cbe
+      internalID: -1062415634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterCustomisation_114
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 8
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d23d97f4b846854d8f2319c692dd3d2
+      internalID: 1624729652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharacterCustomisation_0: 2021624082
+      CharacterCustomisation_1: 627191832
+      CharacterCustomisation_10: 1024001182
+      CharacterCustomisation_100: 287292840
+      CharacterCustomisation_101: -1807336017
+      CharacterCustomisation_102: -1621745827
+      CharacterCustomisation_103: -214293292
+      CharacterCustomisation_104: -391342028
+      CharacterCustomisation_105: -190593901
+      CharacterCustomisation_106: 1263042985
+      CharacterCustomisation_107: -106862339
+      CharacterCustomisation_108: 1433308146
+      CharacterCustomisation_109: 1469420038
+      CharacterCustomisation_11: -1914251679
+      CharacterCustomisation_110: -1322625212
+      CharacterCustomisation_111: -1673575195
+      CharacterCustomisation_112: 1372127157
+      CharacterCustomisation_113: -1062415634
+      CharacterCustomisation_114: 1624729652
+      CharacterCustomisation_12: 952004993
+      CharacterCustomisation_13: -1896130190
+      CharacterCustomisation_14: 584204256
+      CharacterCustomisation_15: 156943374
+      CharacterCustomisation_16: 229417519
+      CharacterCustomisation_17: -1621966204
+      CharacterCustomisation_18: -473096793
+      CharacterCustomisation_19: 1842545867
+      CharacterCustomisation_2: 1313562470
+      CharacterCustomisation_20: -1466555581
+      CharacterCustomisation_21: -587448159
+      CharacterCustomisation_22: 32763185
+      CharacterCustomisation_23: -409860752
+      CharacterCustomisation_24: -865000237
+      CharacterCustomisation_25: 1239487917
+      CharacterCustomisation_26: -1127885516
+      CharacterCustomisation_27: 1308402199
+      CharacterCustomisation_28: 423894187
+      CharacterCustomisation_29: 740305524
+      CharacterCustomisation_3: -1242331045
+      CharacterCustomisation_30: 1202487974
+      CharacterCustomisation_31: 544462372
+      CharacterCustomisation_32: -260647742
+      CharacterCustomisation_33: -236027306
+      CharacterCustomisation_34: 432167890
+      CharacterCustomisation_35: -143097105
+      CharacterCustomisation_36: -111512333
+      CharacterCustomisation_37: 641813845
+      CharacterCustomisation_38: 147250314
+      CharacterCustomisation_39: -1635515919
+      CharacterCustomisation_4: 1379894092
+      CharacterCustomisation_40: -1679718606
+      CharacterCustomisation_41: 1680779788
+      CharacterCustomisation_42: -1059736578
+      CharacterCustomisation_43: 1127578468
+      CharacterCustomisation_44: 404074080
+      CharacterCustomisation_45: 1267028626
+      CharacterCustomisation_46: 1381543331
+      CharacterCustomisation_47: -1286829628
+      CharacterCustomisation_48: -1427931352
+      CharacterCustomisation_49: -791919382
+      CharacterCustomisation_5: -1433932899
+      CharacterCustomisation_50: 1936794806
+      CharacterCustomisation_51: 317705633
+      CharacterCustomisation_52: -275220936
+      CharacterCustomisation_53: -2051941270
+      CharacterCustomisation_54: -2074294711
+      CharacterCustomisation_55: 1146835197
+      CharacterCustomisation_56: 34484678
+      CharacterCustomisation_57: 1163942653
+      CharacterCustomisation_58: 204070221
+      CharacterCustomisation_59: -1696397868
+      CharacterCustomisation_6: -2141604120
+      CharacterCustomisation_60: 1310699392
+      CharacterCustomisation_61: -648989117
+      CharacterCustomisation_62: -925015139
+      CharacterCustomisation_63: -847887897
+      CharacterCustomisation_64: -963783614
+      CharacterCustomisation_65: 1613133836
+      CharacterCustomisation_66: 1456464024
+      CharacterCustomisation_67: -866928308
+      CharacterCustomisation_68: 1855254684
+      CharacterCustomisation_69: -1667455858
+      CharacterCustomisation_7: 1475025052
+      CharacterCustomisation_70: -1665375546
+      CharacterCustomisation_71: -389770324
+      CharacterCustomisation_72: 1532561283
+      CharacterCustomisation_73: -1654736541
+      CharacterCustomisation_74: 850353279
+      CharacterCustomisation_75: 1387085425
+      CharacterCustomisation_76: -1539299121
+      CharacterCustomisation_77: -635725323
+      CharacterCustomisation_78: 1831218146
+      CharacterCustomisation_79: 590249180
+      CharacterCustomisation_8: -1782636434
+      CharacterCustomisation_80: 689201607
+      CharacterCustomisation_81: -1986805022
+      CharacterCustomisation_82: 1305594127
+      CharacterCustomisation_83: 1511344020
+      CharacterCustomisation_84: -1703534642
+      CharacterCustomisation_85: -516387455
+      CharacterCustomisation_86: 357842535
+      CharacterCustomisation_87: -1692530033
+      CharacterCustomisation_88: 1067962482
+      CharacterCustomisation_89: 714197231
+      CharacterCustomisation_9: 500226869
+      CharacterCustomisation_90: -360352017
+      CharacterCustomisation_91: 243811334
+      CharacterCustomisation_92: -1599230289
+      CharacterCustomisation_93: 1731323534
+      CharacterCustomisation_94: 2122627320
+      CharacterCustomisation_95: -1471048682
+      CharacterCustomisation_96: 1825505993
+      CharacterCustomisation_97: -1679730000
+      CharacterCustomisation_98: -92760112
+      CharacterCustomisation_99: -1005918127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

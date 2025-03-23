@@ -19,7 +19,7 @@ public class CustomisableElement : MonoBehaviour
     //[SerializeField] public List<ColourVarSprite> colourOptions;
 
     [field: SerializeField]
-    public int ColourIndex;
+    public int ColourIndex { get; private set; }
 
     [SerializeField]
     public List<SpriteRenderer> copyColourTo;
