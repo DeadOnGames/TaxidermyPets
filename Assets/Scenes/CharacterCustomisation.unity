@@ -1865,6 +1865,26 @@ PrefabInstance:
       propertyPath: type
       value: 
       objectReference: {fileID: 11400000, guid: 662e3ecdcf0eeda45a7a1a55d74ef61f, type: 2}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1966200007, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 326822364, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -333888218, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 631481312, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2981,6 +3001,14 @@ PrefabInstance:
       propertyPath: type
       value: 
       objectReference: {fileID: 11400000, guid: a03311c797ed7c8469146eafc194ab55, type: 2}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -811713270, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3525,6 +3553,14 @@ PrefabInstance:
       propertyPath: type
       value: 
       objectReference: {fileID: 11400000, guid: 3ecbe02ace9729a4c957c1217b746dba, type: 2}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 116888738, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3595,6 +3631,38 @@ PrefabInstance:
       propertyPath: type
       value: 
       objectReference: {fileID: 11400000, guid: e14c62964639e88418ceaf7496f5cd1c, type: 2}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1807788335, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -421811010, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1563136087, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -3459736, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[4].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1969079411, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[5].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 860251316, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[6].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 860251316, guid: 2f77088191984c4468166190bee4f6d0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

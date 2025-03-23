@@ -14,7 +14,7 @@ public class CustomisableElement : MonoBehaviour
     [field: SerializeField] 
     public int SpriteIndex { get; private set; }
 
-    [SerializeField] public List<Color> colourOptions;
+    [SerializeField] public List<PositionedSprite> colourOptions;
 
     [field: SerializeField]
     public int ColourIndex;

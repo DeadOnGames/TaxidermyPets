@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 825236da8a50ea143ba14f9c48f48574, type: 3}
   m_Name: New Customised Character
   m_EditorClassIdentifier: 
-  <CustomisationData>k__BackingField: []
+  <CustomisationData>k__BackingField:
+  - <Type>k__BackingField: {fileID: 11400000, guid: 66aa16a3fe71852439ddc210da1c5b6f, type: 2}
+    <Sprite>k__BackingField:
+      <Sprite>k__BackingField: {fileID: -99570802, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      <PositionModifier>k__BackingField: {x: 0, y: 0, z: 0}
+    <Colour>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
+  - <Type>k__BackingField: {fileID: 11400000, guid: 2c5d2f97a5021d9469c69dd9fbfe27e4, type: 2}
+    <Sprite>k__BackingField:
+      <Sprite>k__BackingField: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      <PositionModifier>k__BackingField: {x: -0.1417252, y: 1.570001, z: 0}
+    <Colour>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
