@@ -14,7 +14,7 @@ public class CustomisableElement : MonoBehaviour
     [field: SerializeField] 
     public int SpriteIndex { get; private set; }
 
-    [SerializeField] public List<Color> colourOptions;
+    [SerializeField] public List<ColourVarSprite> colourOptions;
 
     [field: SerializeField]
     public int ColourIndex;
@@ -22,7 +22,7 @@ public class CustomisableElement : MonoBehaviour
     [SerializeField]
     public List<SpriteRenderer> copyColourTo;
 
-    public Color CurrentColour => colourOptions.Count == 0 ? Color.white : colourOptions[ColourIndex];
+    public Color CurrentColour => colourOptions.Count == 0 ? Color.white : colourOptions[ColourIndex].ColorSwatch;
 
     [ContextMenu("Next sprite")]
     public PositionedSprite NextSprite()
@@ -66,8 +66,8 @@ public class CustomisableElement : MonoBehaviour
         if (colourOptions.Count == 0) return;
         ColourIndex = Mathf.Clamp(ColourIndex, 0, colourOptions.Count - 1);
         var newColour = colourOptions[ColourIndex];
-        spriteRenderer.color = newColour;
-        copyColourTo.ForEach(spiteRenderer => spiteRenderer.color = newColour);
+        spriteRenderer.sprite = newColour.Sprite;
+        copyColourTo.ForEach(spiteRenderer => spiteRenderer.color = newColour.ColorSwatch);
     }
 
     [ContextMenu("Next colour")]
@@ -75,7 +75,7 @@ public class CustomisableElement : MonoBehaviour
     {
         ColourIndex = Mathf.Min(ColourIndex + 1, colourOptions.Count - 1);
         UpdateColour();
-        return colourOptions[ColourIndex];
+        return colourOptions[ColourIndex].ColorSwatch;
     }
 
     [ContextMenu("Previous colour")]
@@ -83,7 +83,7 @@ public class CustomisableElement : MonoBehaviour
     {
         ColourIndex = Mathf.Max(ColourIndex - 1, 0);
         UpdateColour();
-        return colourOptions[ColourIndex];
+        return colourOptions[ColourIndex].ColorSwatch;
     }
 
     
