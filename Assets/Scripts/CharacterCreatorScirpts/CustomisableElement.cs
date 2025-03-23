@@ -26,6 +26,11 @@ public class CustomisableElement : MonoBehaviour
 
     public Color CurrentColour => CheckColourVariationExists() ? spriteOptions[SpriteIndex].ColorVariationSprites[ColourIndex].ColorSwatch : Color.white;
 
+    void Start()
+    {
+        SpriteIndex = 0;
+    }
+
     [ContextMenu("Next sprite")]
     public PositionedSprite NextSprite()
     {

@@ -137,11 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Size.x
-      value: 0.062937066
+      value: 0.0703125
       objectReference: {fileID: 0}
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Size.y
-      value: 0.03846154
+      value: 0.04296875
       objectReference: {fileID: 0}
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Sprite
@@ -169,11 +169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.881
+      value: -3.93
       objectReference: {fileID: 0}
     - target: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.402
+      value: 5.36
       objectReference: {fileID: 0}
     - target: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -221,11 +221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: <SpriteIndex>k__BackingField
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: colourOptions.Array.data[0].a
@@ -278,15 +278,15 @@ PrefabInstance:
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[1].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 1158906866, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[3].<Sprite>k__BackingField
       value: 
@@ -313,11 +313,11 @@ PrefabInstance:
       objectReference: {fileID: -30883314, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<PositionModifier>k__BackingField.x
-      value: 0.37
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<PositionModifier>k__BackingField.y
-      value: 0.9
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[1].<PositionModifier>k__BackingField.x
@@ -329,11 +329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<PositionModifier>k__BackingField.x
-      value: -0.1417252
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<PositionModifier>k__BackingField.y
-      value: 1.570001
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[3].<PositionModifier>k__BackingField.x
@@ -353,47 +353,139 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.size
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.size
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -771418007, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 1158906866, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -1777577227, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 1728171498, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -1982979278, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 34778017, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -944980710, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -1801069847, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<Sprite>k__BackingField
       value: 
+      objectReference: {fileID: 507896238, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1779655235, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 438537319, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -771418007, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1777577227, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[4].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -944980710, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[5].<Sprite>k__BackingField
+      value: 
       objectReference: {fileID: -934362951, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[6].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[7].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1779655235, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[8].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 438537319, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1158906866, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1728171498, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1982979278, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 34778017, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[4].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1801069847, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[5].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 507896238, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[6].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[7].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1779655235, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[8].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 438537319, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
-      value: 0.3647059
+      value: 0.52156866
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.g
-      value: 0.33333334
+      value: 0.52156866
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
-      value: 0.9607844
+      value: 0.52156866
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.a
@@ -401,11 +493,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.b
-      value: 0.97647065
+      value: 0.2392157
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.g
-      value: 0.80392164
+      value: 0.2392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.r
+      value: 0.2392157
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.a
@@ -413,15 +509,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.b
-      value: 0.3803922
+      value: 0.21176472
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.g
-      value: 0.14117648
+      value: 0.28235295
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.r
-      value: 0.38431376
+      value: 0.5411765
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.a
@@ -429,15 +525,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.b
-      value: 0.52156866
+      value: 0.34117648
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.g
-      value: 0.52156866
+      value: 0.9215687
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.r
-      value: 0.52156866
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.a
@@ -445,15 +541,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.b
-      value: 0.10588236
+      value: 0.078431375
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.g
-      value: 0.10588236
+      value: 0.63529414
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.r
-      value: 0.10588236
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.a
@@ -461,15 +557,343 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.b
-      value: 0.30980393
+      value: 0.37254903
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.g
-      value: 0.7725491
+      value: 0.90196085
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.r
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.b
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.r
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.b
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.g
+      value: 0.80392164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.r
+      value: 0.38431376
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.g
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.b
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.r
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.b
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.g
+      value: 0.80392164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.r
+      value: 0.38431376
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.b
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.r
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.b
+      value: 0.30980393
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.g
+      value: 0.7725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.r
       value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.b
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.r
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.b
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.g
+      value: 0.80392164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[1].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.r
+      value: 0.38431376
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.g
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.b
+      value: 0.2392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.g
+      value: 0.2392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.r
+      value: 0.2392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.b
+      value: 0.21176472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.r
+      value: 0.5411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.b
+      value: 0.34117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.g
+      value: 0.9215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.b
+      value: 0.078431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.g
+      value: 0.63529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.b
+      value: 0.37254903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.g
+      value: 0.90196085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.r
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.b
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.r
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.b
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.g
+      value: 0.80392164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[2].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.r
+      value: 0.38431376
       objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalScale.x
@@ -485,11 +909,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -647,6 +1071,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 158814122}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &204975001 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 396424845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &209169646 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6481722996147869330, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
@@ -726,6 +1161,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 249072706}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &266502390 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1208122497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &294298834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1480,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 493499192}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 204975001}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
       objectReference: {fileID: 1702655456}
@@ -1230,6 +1684,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b8e99fb24147d848811f9003fb1b83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &493499192 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 396424845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &501926982 stripped
@@ -1752,6 +2217,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6481722996147869330, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
   m_PrefabInstance: {fileID: 658020318}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &719897421 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1812041016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &795798324 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1208122497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &801738763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,6 +2550,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 1262413648973386604}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &831914948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1812041016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &840698397 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 510064551166129379, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
@@ -2442,6 +2940,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1138614719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1428925016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1208122497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2554,6 +3063,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 795798324}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 266502390}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
@@ -2962,6 +3479,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 1138614719}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 1913098564}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
@@ -3653,6 +4178,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 719897421}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 831914948}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
       objectReference: {fileID: 1078030983}
@@ -3990,6 +4523,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 1878854316}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1913098564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 1428925016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1917351879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4999,6 +5543,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -30883314, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
       value: 1
       objectReference: {fileID: 0}
@@ -5008,6 +5556,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
