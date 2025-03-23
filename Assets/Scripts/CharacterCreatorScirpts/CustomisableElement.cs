@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class CustomisableElement : MonoBehaviour
 {
@@ -11,10 +13,10 @@ public class CustomisableElement : MonoBehaviour
 
     [SerializeField] private List<PositionedSprite> spriteOptions;
 
-    [field: SerializeField] 
+    [field: SerializeField]
     public int SpriteIndex { get; private set; }
 
-    [SerializeField] public List<ColourVarSprite> colourOptions;
+    //[SerializeField] public List<ColourVarSprite> colourOptions;
 
     [field: SerializeField]
     public int ColourIndex;
@@ -22,7 +24,7 @@ public class CustomisableElement : MonoBehaviour
     [SerializeField]
     public List<SpriteRenderer> copyColourTo;
 
-    public Color CurrentColour => colourOptions.Count == 0 ? Color.white : colourOptions[ColourIndex].ColorSwatch;
+    public Color CurrentColour => CheckColourVariationExists() ? spriteOptions[SpriteIndex].ColorVariationSprites[ColourIndex].ColorSwatch : Color.white;
 
     [ContextMenu("Next sprite")]
     public PositionedSprite NextSprite()
@@ -63,9 +65,9 @@ public class CustomisableElement : MonoBehaviour
 
     private void UpdateColour()
     {
-        if (colourOptions.Count == 0) return;
-        ColourIndex = Mathf.Clamp(ColourIndex, 0, colourOptions.Count - 1);
-        var newColour = colourOptions[ColourIndex];
+        if (!CheckColourVariationExists()) return;
+        ColourIndex = Mathf.Clamp(ColourIndex, 0, spriteOptions[SpriteIndex].ColorVariationSprites.Count - 1);
+        var newColour = spriteOptions[SpriteIndex].ColorVariationSprites[ColourIndex];
         spriteRenderer.sprite = newColour.Sprite;
         copyColourTo.ForEach(spiteRenderer => spiteRenderer.color = newColour.ColorSwatch);
     }
@@ -73,9 +75,9 @@ public class CustomisableElement : MonoBehaviour
     [ContextMenu("Next colour")]
     public Color NextColour()
     {
-        ColourIndex = Mathf.Min(ColourIndex + 1, colourOptions.Count - 1);
+        ColourIndex = Mathf.Min(ColourIndex + 1, spriteOptions[SpriteIndex].ColorVariationSprites.Count - 1);
         UpdateColour();
-        return colourOptions[ColourIndex].ColorSwatch;
+        return spriteOptions[SpriteIndex].ColorVariationSprites[ColourIndex].ColorSwatch;
     }
 
     [ContextMenu("Previous colour")]
@@ -83,16 +85,28 @@ public class CustomisableElement : MonoBehaviour
     {
         ColourIndex = Mathf.Max(ColourIndex - 1, 0);
         UpdateColour();
-        return colourOptions[ColourIndex].ColorSwatch;
+        return spriteOptions[SpriteIndex].ColorVariationSprites[ColourIndex].ColorSwatch;
     }
 
+    public bool CheckColourVariationExists()
+    {
+        try
+        {
+            return (spriteOptions[SpriteIndex].ColorVariationSprites.Count > 0);
+        }
+        catch (Exception ex)
+        {
+            Debug.Log("Colour variation not found");
+        }
+        return false;
+    }
     
 
     [ContextMenu("Randomise")]
     public void Randomise()
     {
-        SpriteIndex = Random.Range(0, spriteOptions.Count - 1);
-        ColourIndex = Random.Range(0, colourOptions.Count - 1);
+        SpriteIndex = UnityEngine.Random.Range(0, spriteOptions.Count - 1);
+        ColourIndex = UnityEngine.Random.Range(0, spriteOptions[SpriteIndex].ColorVariationSprites.Count - 1);
         UpdateSprite();
         UpdateColour();
     }

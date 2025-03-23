@@ -213,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 2c5d2f97a5021d9469c69dd9fbfe27e4, type: 2}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: ColourIndex
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: colourOptions.Array.size
@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.size
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: <SpriteIndex>k__BackingField
@@ -278,19 +278,19 @@ PrefabInstance:
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[0].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -771418007, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[1].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -1777577227, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[3].<Sprite>k__BackingField
       value: 
-      objectReference: {fileID: -19259515, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+      objectReference: {fileID: -1779655235, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[4].<Sprite>k__BackingField
       value: 
@@ -329,11 +329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<PositionModifier>k__BackingField.x
-      value: 0.37
+      value: -0.1417252
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[2].<PositionModifier>k__BackingField.y
-      value: 0.9
+      value: 1.570001
       objectReference: {fileID: 0}
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[3].<PositionModifier>k__BackingField.x
@@ -350,6 +350,126 @@ PrefabInstance:
     - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: spriteOptions.Array.data[4].<PositionModifier>k__BackingField.y
       value: 1.570001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -771418007, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -1777577227, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 626033858, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -3285402, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -944980710, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -934362951, guid: f5323c4cc97c72d42912af9a7681870d, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.b
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.g
+      value: 0.80392164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.g
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.r
+      value: 0.38431376
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.b
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.g
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.r
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.b
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.r
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.b
+      value: 0.30980393
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.g
+      value: 0.7725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.r
+      value: 0.3529412
       objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalScale.x
@@ -1112,6 +1232,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8e99fb24147d848811f9003fb1b83a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &501926982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 2080705195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &522630055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1555,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: nextSpriteButton
+      value: 
+      objectReference: {fileID: 840698397}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 1052654762}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 1971146713}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
       objectReference: {fileID: 1870367261}
@@ -1722,6 +1865,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 1750135379}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 1793131662}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
       objectReference: {fileID: 1857191311}
@@ -1912,6 +2063,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 1262413648973386604}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &840698397 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 510064551166129379, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 658020318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &942727460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2143,6 +2305,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b8e99fb24147d848811f9003fb1b83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1052654762 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 658020318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1060614305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3423316862821710400, guid: 7f0a00d266e99cf41a7b7571a0bfd274, type: 3}
+  m_PrefabInstance: {fileID: 2940043519063525706}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1078030983 stripped
@@ -2655,6 +2839,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403634492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 2080705195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1428925016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3111,6 +3306,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8e99fb24147d848811f9003fb1b83a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1750135379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6557492260050181352, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 801738763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1752718966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3189,6 +3395,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7181730517222702192, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
   m_PrefabInstance: {fileID: 1752718966}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1793131662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 801738763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805937229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3862,6 +4079,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8e99fb24147d848811f9003fb1b83a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1971146713 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956252042581099017, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+  m_PrefabInstance: {fileID: 658020318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1976237932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4335,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevColourButton
+      value: 
+      objectReference: {fileID: 501926982}
+    - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 1403634492}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: customisableElement
       value: 
@@ -4377,7 +4613,7 @@ PrefabInstance:
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 235324996, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+      objectReference: {fileID: 1842974330, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
     - target: {fileID: 4971044435976153679, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -4722,6 +4958,182 @@ PrefabInstance:
       propertyPath: colourOptions.Array.data[8].<ColorSwatch>k__BackingField.r
       value: 0.5803922
       objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1842974330, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -949500961, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 235324996, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -9990779, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -99570802, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -739484478, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 897869463, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: 1971055215, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<Sprite>k__BackingField
+      value: 
+      objectReference: {fileID: -30883314, guid: c063a406d30808a4482aa3452cd2db16, type: 3}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[0].<ColorSwatch>k__BackingField.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.b
+      value: 0.8117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.g
+      value: 0.90196085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[1].<ColorSwatch>k__BackingField.r
+      value: 0.97647065
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.b
+      value: 0.62352943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.g
+      value: 0.79215693
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[2].<ColorSwatch>k__BackingField.r
+      value: 0.96470594
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.b
+      value: 0.41176474
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.g
+      value: 0.6117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[3].<ColorSwatch>k__BackingField.r
+      value: 0.90196085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.b
+      value: 0.2901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.g
+      value: 0.43529415
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[4].<ColorSwatch>k__BackingField.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.b
+      value: 0.21176472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.g
+      value: 0.28235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[5].<ColorSwatch>k__BackingField.r
+      value: 0.5411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.b
+      value: 0.15686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.g
+      value: 0.17254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[6].<ColorSwatch>k__BackingField.r
+      value: 0.3647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.b
+      value: 0.49411768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.g
+      value: 0.98823535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[7].<ColorSwatch>k__BackingField.r
+      value: 0.82745105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.g
+      value: 0.9921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255886661148193817, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
+      propertyPath: spriteOptions.Array.data[0].<ColorVariationSprites>k__BackingField.Array.data[8].<ColorSwatch>k__BackingField.r
+      value: 0.5803922
+      objectReference: {fileID: 0}
     - target: {fileID: 7445932375544738605, guid: 6a1733444c20d4744977c70fa216faf8, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -4795,6 +5207,10 @@ PrefabInstance:
       propertyPath: prevColourButton
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2193757107647468250, guid: 7f0a00d266e99cf41a7b7571a0bfd274, type: 3}
+      propertyPath: prevSpriteButton
+      value: 
+      objectReference: {fileID: 1060614305}
     - target: {fileID: 2193757107647468250, guid: 7f0a00d266e99cf41a7b7571a0bfd274, type: 3}
       propertyPath: customisableElement
       value: 
@@ -5067,35 +5483,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2661984942889194335, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2661984942889194335, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2661984942889194335, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 2661984942889194335, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757165202162410117, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4201139919481754214, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4201139919481754214, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4201139919481754214, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 4201139919481754214, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 4374843317222812307, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: prevColourButton
@@ -5223,23 +5643,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7181899767666394468, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181899767666394468, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181899767666394468, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 7181899767666394468, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 7181899767666394468, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -85
       objectReference: {fileID: 0}
     - target: {fileID: 7708922245745550677, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_text
@@ -5263,19 +5683,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8194426907230015902, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8194426907230015902, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8194426907230015902, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 244
       objectReference: {fileID: 0}
     - target: {fileID: 8194426907230015902, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 8282472966228087575, guid: eb6f4529b1f3e8f43a65480d00e10638, type: 3}
       propertyPath: m_Name
