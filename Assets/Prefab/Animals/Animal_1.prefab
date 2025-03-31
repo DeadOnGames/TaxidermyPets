@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 7293311622918788984}
   - component: {fileID: 3155984224524955142}
   m_Layer: 0
-  m_Name: Animal 1
+  m_Name: Animal_1
   m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

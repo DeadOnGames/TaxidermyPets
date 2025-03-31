@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int NumberOfStations { get => numberOfStations; private set => numberOfStations = value; }
     public GameObject currentAnimal; //TODO: In future, instantiate this
     public UIScoreDisplay scoreUIElements;
+    public LevelManager levelManager = new LevelManager();
     
     void Awake()
     {
@@ -26,7 +27,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        levelManager.StartLevel(1);
     }
 
     // Update is called once per frame
