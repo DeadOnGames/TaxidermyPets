@@ -6792,6 +6792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1548274500}
   - component: {fileID: 1548274501}
+  - component: {fileID: 1548274502}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -6844,6 +6845,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bf375200b2d4a034e9e8e92c12ecb12d, type: 2}
   - {fileID: 11400000, guid: 5d9b83b1bcc4a6e40ae5ce30bce12a9b, type: 2}
   - {fileID: 11400000, guid: 253f9c7d63eb2a24d8a457939b669caa, type: 2}
+--- !u!114 &1548274502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548274499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c56fd0ad402c144a5b7e6e03fab443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550958675
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,7 +7678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentAnimal: {fileID: 382973714}
   scoreUIElements: {fileID: 2055698308}
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1548274502}
 --- !u!1 &1728153064
 GameObject:
   m_ObjectHideFlags: 0
