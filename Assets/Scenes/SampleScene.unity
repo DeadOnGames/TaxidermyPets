@@ -6828,6 +6828,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numOfAnimalsToCreate: 20
+  animalLibrary:
+  - {fileID: 3588424729588735784, guid: 6bafc48a961050e489e3a91a023f526d, type: 3}
+  - {fileID: 3588424729588735784, guid: 116f65b9ccd322641a2aceb420eed655, type: 3}
+  - {fileID: 3588424729588735784, guid: 20ca0770c14cc82478f3e7321cd3f22f, type: 3}
   accessoriesLibrary:
   - {fileID: 11400000, guid: 7d4eacbe66fcfd348aba288da1a771ac, type: 2}
   - {fileID: 11400000, guid: 6287ca79ba87a4c4c97c517491f3d971, type: 2}

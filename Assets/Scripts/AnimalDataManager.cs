@@ -13,7 +13,12 @@ public class AnimalDataManager : MonoBehaviour
 
     private List<AnimalData> allAnimals = new List<AnimalData>();
 
+    private float[] timeSegments = new float[] { 0.25f, 0.5f, 0.75f };
+
     public int numOfAnimalsToCreate = 20;
+
+    [SerializeField]
+    public List<GameObject> animalLibrary = new List<GameObject>();
 
     [SerializeField]
     public List<AccessoryScriptableObject> accessoriesLibrary = new List<AccessoryScriptableObject>();
@@ -67,15 +72,18 @@ public class AnimalDataManager : MonoBehaviour
 
         for (int i = 0; i < numOfAnimalsToCreate; i++)
         {
+            int randomAnimalId = Random.Range(0, animalLibrary.Count);
             int randomAccessoryId = Random.Range(0, accessoriesLibrary.Count);
             int randomEyeId = Random.Range(0, accessoriesLibrary.Count);
-
+            int randomTimeSegment1 = Random.Range(0, timeSegments.Length);
+            int randomTimeSegment2 = Random.Range(0, timeSegments.Length);
+            
             allAnimals.Add(new AnimalData()
             {
                 animalId = i + 1,
-                animalPrefabPath = $"Prefab/Animals/Animal_{i + 1}",
-                washingTime = Random.Range(3f, 10f),
-                stuffingTime = Random.Range(2f, 8f),
+                animalPrefabPath = $"Prefab/Animals/Animal_{randomAnimalId + 1}",
+                washingTime = timeSegments[randomTimeSegment1],
+                stuffingTime = timeSegments[randomTimeSegment2],
                 eye = new AccessoryData()
                 {
                     accessoryId = randomEyeId,
