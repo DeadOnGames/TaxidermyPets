@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryName: Mushroom
   accessoryID: 12
-  accessorySprite: {fileID: 510506104, guid: 82559e5fd2bbe634ab8110b0caacb93b, type: 3}
+  accessorySprite: {fileID: -636860862, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
   prefab: {fileID: 195362159388545800, guid: afe947f3f2e0cb74dbcee47b3095eabd, type: 3}

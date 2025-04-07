@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baf08891ece8837449a2b0a0ed868eac, type: 3}
-  m_Name: Heart
+  m_Name: Bow
   m_EditorClassIdentifier: 
-  accessoryName: Heart
-  accessoryID: 13
-  accessorySprite: {fileID: -1715892389, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
-  prefab: {fileID: 195362159388545800, guid: f27dc173b7ba3e5469c78873e1ae1750, type: 3}
+  accessoryName: Bow
+  accessoryID: 21
+  accessorySprite: {fileID: 1866752608, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
+  prefab: {fileID: 195362159388545800, guid: 3ac3df1175d1fb14ba6f61f87ddfb98e, type: 3}

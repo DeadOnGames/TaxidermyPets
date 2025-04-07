@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryName: Sparkle
   accessoryID: 15
-  accessorySprite: {fileID: -800976479, guid: 82559e5fd2bbe634ab8110b0caacb93b, type: 3}
+  accessorySprite: {fileID: -1132549410, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
   prefab: {fileID: 195362159388545800, guid: 79f81ddfb0dad8245b76d4262f2fc4a4, type: 3}

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryName: RubberDuck
   accessoryID: 11
-  accessorySprite: {fileID: -581298117, guid: 82559e5fd2bbe634ab8110b0caacb93b, type: 3}
+  accessorySprite: {fileID: 1460939047, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
   prefab: {fileID: 195362159388545800, guid: 2a8359a1adcc9dc4bbc197f7f7775102, type: 3}

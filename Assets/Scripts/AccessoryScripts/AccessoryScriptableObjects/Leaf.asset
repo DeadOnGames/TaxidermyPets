@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryName: Leaf
   accessoryID: 14
-  accessorySprite: {fileID: -1102076827, guid: 82559e5fd2bbe634ab8110b0caacb93b, type: 3}
+  accessorySprite: {fileID: -1618768970, guid: 431738e1bad0a98478069e52077fffb8, type: 3}
   prefab: {fileID: 195362159388545800, guid: ed845422177763940b0b7cb868b75bc8, type: 3}
