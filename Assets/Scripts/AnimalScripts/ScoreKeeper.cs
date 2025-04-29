@@ -64,6 +64,7 @@ public class ScoreKeeper : MonoBehaviour
 
         //Station 3
         //Sew up
+        pointsPerStation[2] = CalculateSuturePointsScore();
 
         //Correct eye
         //Eye placement
@@ -93,6 +94,11 @@ public class ScoreKeeper : MonoBehaviour
 
         float successfulCutPointsRatio = numCutPointsTriggered / totalNumCutPoints;
         return successfulCutPointsRatio * 100f;
+    }
+
+    private float CalculateSuturePointsScore()
+    {
+        return 0;
     }
 
     private void PrintScore()
