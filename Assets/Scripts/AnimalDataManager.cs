@@ -123,9 +123,9 @@ public class AnimalDataManager : MonoBehaviour
 
     public LevelData LoadLevelData(int levelNumber)
     {
-        string levelsPath = Path.Combine(Application.streamingAssetsPath, LEVELS_FOLDER);
+        string levelsPath = Application.streamingAssetsPath + "/" + LEVELS_FOLDER;
         string fileName = $"level_{levelNumber}.json";
-        string filePath = Path.Combine(levelsPath, fileName);
+        string filePath = levelsPath + "/" + fileName;
 
         if (File.Exists(filePath))
         {
@@ -134,6 +134,17 @@ public class AnimalDataManager : MonoBehaviour
         }
 
         Debug.LogWarning($"Level {levelNumber} file not found at {filePath}");
+        return null;
+    }
+
+    public GameObject LoadPrefabFromId(string id)
+    {
+        foreach(var animal in animalLibrary)
+        {
+            if(animal.name.Contains(id)) return animal;
+        }
+
+        Debug.Log("No animal with that name was found in animal library");
         return null;
     }
 

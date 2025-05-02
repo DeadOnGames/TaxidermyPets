@@ -19,7 +19,9 @@ public abstract class BaseTask : ITask
                 gameManager = GameManager.Instance;
             }
 
-            return gameManager?.currentAnimal;
+            //TODO: Instead get from station manager
+            //return gameManager?.currentAnimal;
+            return null;
         }
     }
 
