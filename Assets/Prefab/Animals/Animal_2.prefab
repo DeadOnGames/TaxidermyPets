@@ -747,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff757efdeb10e3343a1f4fa2027fa710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinnedAnimalPrefab: {fileID: 3588424729588735784, guid: 4428acdb647a9324099b0e5046d1b57b, type: 3}
+  skinnedAnimalPrefab: {fileID: 3588424729588735784, guid: d641fefb29de6464a8b90dc9a5d91d9a, type: 3}
 --- !u!114 &7293311622918788984
 MonoBehaviour:
   m_ObjectHideFlags: 0
