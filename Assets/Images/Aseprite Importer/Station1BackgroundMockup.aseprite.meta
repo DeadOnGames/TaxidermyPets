@@ -301,7 +301,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 236}
   - name: Scalpel
     originalName: 
-    pivot: {x: 3.8500001, y: 0.20000005}
+    pivot: {x: 0.50365907, y: 0.4981888}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
