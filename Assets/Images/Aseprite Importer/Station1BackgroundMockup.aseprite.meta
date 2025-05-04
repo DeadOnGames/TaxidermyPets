@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: 77a62fedf17e20a44bd37a7e9377e911
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 192
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 0
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638819564300873435
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 192
+      height: 108
+    spriteID: e367180c6f75f91478bc10c229a53700
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: TableTop
+    originalName: 
+    pivot: {x: 0.5, y: 0.47058827}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 236
+      width: 164
+      height: 85
+    spriteID: 1bed6b0a1432a1d45889d16a0621cb81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 236}
+  - name: CuttingMat
+    originalName: 
+    pivot: {x: 0.5048543, y: 0.43478262}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 438
+      width: 103
+      height: 69
+    spriteID: 4752e926dae8712408c5392d47e9ed68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 438}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 192
+      height: 108
+    spriteID: eba09bbe61f1ade45924ffdd3f43ba61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Newspaper
+    originalName: 
+    pivot: {x: 0.5, y: -0.34999996}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 390
+      width: 192
+      height: 40
+    spriteID: 36ea8e05d449df84ebb18635e9d451af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 390}
+  - name: Dog
+    originalName: 
+    pivot: {x: 0.5172414, y: 0.3809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 183
+      y: 329
+      width: 58
+      height: 42
+    spriteID: 56ab5e9198b91b2449b5d8457576dfdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 183, y: 329}
+  - name: Bin
+    originalName: 
+    pivot: {x: 2.6060607, y: 2.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 390
+      width: 33
+      height: 20
+    spriteID: 2bd7d4b891b8c1a4991183b28e0e880c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 390}
+  - name: Bin Lid
+    originalName: 
+    pivot: {x: 2.6060607, y: 3.6666665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 418
+      width: 33
+      height: 12
+    spriteID: f3c1432d76c9e134483f2a6a47989ead
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 418}
+  - name: ConveyorBelt
+    originalName: 
+    pivot: {x: -0.35211262, y: 4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 236
+      width: 71
+      height: 13
+    spriteID: 316f971e29f5a2f43ba208060d9f804e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 236}
+  - name: Scalpel
+    originalName: 
+    pivot: {x: 3.8500001, y: 0.20000005}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 257
+      width: 20
+      height: 20
+    spriteID: 32535776de66b2b47b5335f3a8cc62b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 257}
+  - name: Blood
+    originalName: 
+    pivot: {x: 0.4853801, y: 0.018867914}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 329
+      width: 171
+      height: 53
+    spriteID: e2bba04140cae8945826563589a6f03f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 329}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 1
+    guid: -1021688249
+    name: Background
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Background
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 192
+        height: 108
+      spriteId: e367180c6f75f91478bc10c229a53700
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: -1368200747
+    name: TableTop
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: TableTop
+      frameIndex: 0
+      cellRect:
+        x: 14
+        y: 14
+        width: 164
+        height: 85
+      spriteId: 1bed6b0a1432a1d45889d16a0621cb81
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 797700073
+    name: CuttingMat
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: CuttingMat
+      frameIndex: 0
+      cellRect:
+        x: 44
+        y: 24
+        width: 103
+        height: 69
+      spriteId: 4752e926dae8712408c5392d47e9ed68
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: 1317223928
+    name: Layer 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 4
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 192
+        height: 108
+      spriteId: eba09bbe61f1ade45924ffdd3f43ba61
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: 778949797
+    name: Newspaper
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Newspaper
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 68
+        width: 192
+        height: 40
+      spriteId: 36ea8e05d449df84ebb18635e9d451af
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 12
+    guid: -468473292
+    name: Dog
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dog
+      frameIndex: 0
+      cellRect:
+        x: 66
+        y: 38
+        width: 58
+        height: 42
+      spriteId: 56ab5e9198b91b2449b5d8457576dfdd
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 13
+    guid: 1756653932
+    name: Bin
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Bin
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 0
+        width: 33
+        height: 20
+      spriteId: 2bd7d4b891b8c1a4991183b28e0e880c
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 14
+    guid: -1009171588
+    name: Bin Lid
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Bin Lid
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 10
+        width: 33
+        height: 12
+      spriteId: f3c1432d76c9e134483f2a6a47989ead
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 15
+    guid: 1434091917
+    name: ConveyorBelt
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ConveyorBelt
+      frameIndex: 0
+      cellRect:
+        x: 121
+        y: 2
+        width: 71
+        height: 13
+      spriteId: 316f971e29f5a2f43ba208060d9f804e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 16
+    guid: -760748690
+    name: Scalpel
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Scalpel
+      frameIndex: 0
+      cellRect:
+        x: 19
+        y: 50
+        width: 20
+        height: 20
+      spriteId: 32535776de66b2b47b5335f3a8cc62b1
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 17
+    guid: 893377459
+    name: Blood
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Blood
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 53
+        width: 171
+        height: 53
+      spriteId: e2bba04140cae8945826563589a6f03f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 108}
