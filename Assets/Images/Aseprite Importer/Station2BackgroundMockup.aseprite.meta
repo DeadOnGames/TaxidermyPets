@@ -32,10 +32,10 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 192
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,9 +73,9 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -85,9 +85,9 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638819610778138124
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Station2BackgroundMockup
+  - name: Background
     originalName: 
-    pivot: {x: 0.5, y: 0.15625}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,8 +129,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 192
-      height: 128
-    spriteID: a745585434ad8ad41b63a63f3f69109d
+      height: 108
+    spriteID: e7ba811fa69eeb14fb1a890ecc87ccdd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +139,444 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Towel
+    originalName: 
+    pivot: {x: 0.49350646, y: 0.47572815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 236
+      width: 77
+      height: 103
+    spriteID: 7130fe10ef08eff46b5d39bfbbe465a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 236}
+  - name: Vignette
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 192
+      height: 108
+    spriteID: d57c64c7f41e1064aa34aaaee78f2179
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Dog
+    originalName: 
+    pivot: {x: 0.5172414, y: 0.3809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 407
+      width: 58
+      height: 42
+    spriteID: a4ddae9d0af445e42b9de4e778d3f308
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 407}
+  - name: ConveyorBelt
+    originalName: 
+    pivot: {x: -0.35211262, y: 4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 236
+      width: 71
+      height: 13
+    spriteID: 491c18337ba84914d93a2c7b2032abf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 236}
+  - name: WashingMachine
+    originalName: 
+    pivot: {x: 1.82, y: 0.019230759}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 347
+      width: 50
+      height: 52
+    spriteID: f86fa42423b603b4e8773fbc8ad31495
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 347}
+  - name: idk
+    originalName: 
+    pivot: {x: -0.33333325, y: 3.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 59
+      width: 48
+      height: 20
+    spriteID: 139a0f50f61a627418d888ff250a15e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 59}
+  - name: Layer 3
+    originalName: 
+    pivot: {x: 0.5144131, y: 0.48756525}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 26
+      height: 47
+    spriteID: 9ba9462445c86f14e9f22164fe4fd956
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Waterdrop
+    originalName: 
+    pivot: {x: 0.49067524, y: 0.49596405}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 457
+      width: 7
+      height: 8
+    spriteID: 451700c1b3140024b8a5c4f9926bc5dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 457}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 1.875, y: 1.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 87
+      width: 48
+      height: 7
+    spriteID: fe28545a190f4f84cac356311d9280c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 87}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: -0.91666675, y: 1.09375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 457
+      width: 48
+      height: 32
+    spriteID: 47c2c84dd5741de4f8161d32d501e6a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 457}
   spriteSheetImportData: []
   asepriteLayers:
-  - layerIndex: 0
-    guid: 1487852737
-    name: Station2BackgroundMockup
-    layerFlags: 0
+  - layerIndex: 1
+    guid: -1021688249
+    name: Background
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Station2BackgroundMockup
+    - name: Background
       frameIndex: 0
       cellRect:
         x: 0
-        y: -20
+        y: 0
         width: 192
-        height: 128
-      spriteId: a745585434ad8ad41b63a63f3f69109d
+        height: 108
+      spriteId: e7ba811fa69eeb14fb1a890ecc87ccdd
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  - layerIndex: 5
+    guid: 277920148
+    name: Towel
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Towel
+      frameIndex: 0
+      cellRect:
+        x: 58
+        y: 5
+        width: 77
+        height: 103
+      spriteId: 7130fe10ef08eff46b5d39bfbbe465a6
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: -388601645
+    name: Vignette
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Vignette
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 192
+        height: 108
+      spriteId: d57c64c7f41e1064aa34aaaee78f2179
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 11
+    guid: -468473293
+    name: Dog
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dog
+      frameIndex: 0
+      cellRect:
+        x: 66
+        y: 38
+        width: 58
+        height: 42
+      spriteId: a4ddae9d0af445e42b9de4e778d3f308
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 12
+    guid: 1434091918
+    name: ConveyorBelt
+    layerFlags: 1
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ConveyorBelt
+      frameIndex: 0
+      cellRect:
+        x: 121
+        y: 2
+        width: 71
+        height: 13
+      spriteId: 491c18337ba84914d93a2c7b2032abf8
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 13
+    guid: 18076453
+    name: WashingMachine
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: WashingMachine
+      frameIndex: 0
+      cellRect:
+        x: 5
+        y: 53
+        width: 50
+        height: 52
+      spriteId: f86fa42423b603b4e8773fbc8ad31495
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 14
+    guid: 255662290
+    name: idk
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: idk
+      frameIndex: 0
+      cellRect:
+        x: 112
+        y: -20
+        width: 48
+        height: 20
+      spriteId: 139a0f50f61a627418d888ff250a15e3
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 15
+    guid: 1317221937
+    name: Layer 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3
+      frameIndex: 0
+      cellRect:
+        x: 152
+        y: 61
+        width: 26
+        height: 47
+      spriteId: 9ba9462445c86f14e9f22164fe4fd956
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 16
+    guid: 2011885240
+    name: Waterdrop
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Waterdrop
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 86
+        width: 7
+        height: 8
+      spriteId: 451700c1b3140024b8a5c4f9926bc5dc
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 17
+    guid: 1317221536
+    name: Layer 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 2
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 44
+        width: 48
+        height: 7
+      spriteId: fe28545a190f4f84cac356311d9280c3
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 18
+    guid: 1317222730
+    name: Layer 1
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 1
+      frameIndex: 0
+      cellRect:
+        x: 140
+        y: 19
+        width: 48
+        height: 32
+      spriteId: 47c2c84dd5741de4f8161d32d501e6a2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 108}
