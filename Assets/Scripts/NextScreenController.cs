@@ -14,8 +14,6 @@ public class NextScreenController : MonoBehaviour
     private int currentStation;
 
     public GameObject rightArrow, leftArrow;
-
-    // Start is called before the first frame update
     void Start()
     {
         gameManager = GameManager.Instance;
@@ -33,7 +31,7 @@ public class NextScreenController : MonoBehaviour
 
     public void MoveRight()
     {
-        mainCamera.transform.Translate(15, 0, 0);
+        mainCamera.transform.Translate(30, 0, 0);
         currentStation = stations[currentStation + 1];
         if (currentStation == stations[stations.Count - 1]) rightArrow.SetActive(false);
         if (currentStation != stations[0]) leftArrow.SetActive(true);
@@ -42,7 +40,7 @@ public class NextScreenController : MonoBehaviour
 
     public void MoveLeft()
     {
-        mainCamera.transform.Translate(-15, 0, 0);
+        mainCamera.transform.Translate(-30, 0, 0);
         currentStation = stations[currentStation - 1];
         if (currentStation == stations[0]) leftArrow.SetActive(false);
         if (currentStation != stations[stations.Count - 1]) rightArrow.SetActive(true);

@@ -321,7 +321,7 @@ ScriptedImporter:
     uvTransform: {x: 176, y: 257}
   - name: Blood
     originalName: 
-    pivot: {x: 0.4853801, y: 0.018867914}
+    pivot: {x: 0.49868664, y: 0.5112112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
