@@ -8,6 +8,7 @@ using UnityEngine;
 public class AnimalData
 {
     public int animalId;
+    public int ownerId;
     public string animalPrefabPath;
     public float washingTime;
     public float stuffingTime;

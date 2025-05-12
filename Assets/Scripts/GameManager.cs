@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private int numberOfStations = 4;
+    private int numberOfStations = 5;
 
     public static GameManager Instance; // A static reference to the GameManager instance
     public int NumberOfStations { get => numberOfStations; private set => numberOfStations = value; }

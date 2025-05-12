@@ -81,6 +81,7 @@ public class AnimalDataManager : MonoBehaviour
             allAnimals.Add(new AnimalData()
             {
                 animalId = i + 1,
+                ownerId = i + 1,
                 animalPrefabPath = $"Prefab/Animals/Animal_{randomAnimalId + 1}",
                 washingTime = timeSegments[randomTimeSegment1],
                 stuffingTime = timeSegments[randomTimeSegment2],
