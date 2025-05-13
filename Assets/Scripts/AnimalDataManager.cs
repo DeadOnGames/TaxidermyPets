@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEditor;
 #endif
 
-public class AnimalDataManager : MonoBehaviour
+public class AnimalDataGenerator : MonoBehaviour
 {
     private const string ANIMALS_FILE = "animals.json";
     private const string LEVELS_FOLDER = "Levels";

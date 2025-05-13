@@ -43,7 +43,7 @@ public class StationManager : MonoBehaviour
         }
     }
 
-    public void AddAnimalToQueue(StationNumber stationNumber, int id)
+    public void AddAnimalToQueue(StationNumber stationNumber, string id)
     {
         GetStationQueue(stationNumber)?.Enqueue(id);
     }

@@ -4,25 +4,36 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public AnimalDataManager animalDataManager;
+    [SerializeField] private AnimalDataGenerator animalDataManager;
+    [SerializeField] private List<string> currentLevelAnimalIds;
+
+    private GameManager gameManager;
+    private StationManager stationManager;
 
     private void Start()
     {
-        animalDataManager = GetComponent<AnimalDataManager>();
+        gameManager = GameManager.Instance;
+        stationManager = gameManager.stationManager;
+
+        animalDataManager = GetComponent<AnimalDataGenerator>();
     }
     public void StartLevel(int levelNumber)
     {
-        var dataManager = FindObjectOfType<AnimalDataManager>();
-        LevelData levelData = dataManager.LoadLevelData(levelNumber);
-        List<string> animalIds = levelData.animalIds;
+        LevelData levelData = animalDataManager.LoadLevelData(levelNumber);
+        currentLevelAnimalIds = levelData.animalIds;
 
-        string firstAnimalId = animalIds[0];
+        //Add animals to queue in station 0
+        stationManager.ClearAllQueues();
+        foreach(string id in currentLevelAnimalIds)
+            stationManager.AddAnimalToQueue(0, id);
+
+        string firstAnimalId = currentLevelAnimalIds[0];
         GameObject prefab = animalDataManager.LoadPrefabFromId(firstAnimalId);
 
         if (prefab != null)
         {
+            
             GameObject instance = Instantiate(prefab);
-            // Setup animal with additional data...
         }
 
     }
