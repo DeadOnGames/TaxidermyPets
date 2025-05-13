@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     public LevelManager levelManager = new LevelManager();
     public StationManager stationManager = new StationManager();
+    public AnimalDataManager animalDataManager = new AnimalDataManager();
     
     void Awake()
     {
