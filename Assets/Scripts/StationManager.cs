@@ -5,48 +5,39 @@ using UnityEngine;
 
 public class StationManager : MonoBehaviour
 {
-    List<Queue> queues = new List<Queue>();
-    Queue station1_AnimalQueue = new Queue();
-    Queue station2_AnimalQueue = new Queue();
-    Queue station3_AnimalQueue = new Queue();
+    private const int StationCount = 4;
+    private readonly List<Queue> _queues = new List<Queue>(StationCount);
+
+    private readonly Queue _station0AnimalQueue = new Queue();
+    private readonly Queue _station1AnimalQueue = new Queue();
+    private readonly Queue _station2AnimalQueue = new Queue();
+    private readonly Queue _station3AnimalQueue = new Queue();
 
     public enum StationNumber
     {
-        Station1 = 0,
-        Station2 = 1,
-        Station3 = 2
+        Station0 = 0,
+        Station1 = 1,
+        Station2 = 2,
+        Station3 = 3
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        //Add queues to list
-        queues.Add(station1_AnimalQueue);
-        queues.Add(station2_AnimalQueue);   
-        queues.Add(station3_AnimalQueue);
+        // Initialize queues list
+        _queues.Add(_station0AnimalQueue);
+        _queues.Add(_station1AnimalQueue);
+        _queues.Add(_station2AnimalQueue);
+        _queues.Add(_station3AnimalQueue);
     }
 
-    //Keep a record of what animal is currently in each station
     public object GetCurrentAnimalAtStation(StationNumber stationNumber)
     {
-        switch(stationNumber)
-        {
-            case StationNumber.Station1:
-                return station1_AnimalQueue.Peek();
-
-            case StationNumber.Station2:
-                return station2_AnimalQueue.Peek();
-
-            case StationNumber.Station3:
-                return station3_AnimalQueue.Peek();
-            default:
-                return null;
-        }
+        return GetStationQueue(stationNumber)?.Peek();
     }
-    
+
     public void ClearAllQueues()
     {
-        foreach(Queue animalQueue in queues)
+        foreach (var animalQueue in _queues)
         {
             animalQueue.Clear();
         }
@@ -54,42 +45,31 @@ public class StationManager : MonoBehaviour
 
     public void AddAnimalToQueue(StationNumber stationNumber, int id)
     {
-        switch (stationNumber)
-        {
-            case StationNumber.Station1:
-                station1_AnimalQueue.Enqueue(id);
-                break;
-            case StationNumber.Station2:
-                station2_AnimalQueue.Enqueue(id);
-                break;
-            case StationNumber.Station3:
-                station3_AnimalQueue.Enqueue(id);
-                break;
-            default:
-                break;
-        }
-
+        GetStationQueue(stationNumber)?.Enqueue(id);
     }
 
     public void MoveAnimalToNextStationQueue(StationNumber stationNumber)
     {
-        object tempAnimal; 
+        var currentQueue = GetStationQueue(stationNumber);
+        if (currentQueue == null || currentQueue.Count == 0) return;
 
+        var tempAnimal = currentQueue.Dequeue();
+
+        if (stationNumber != StationNumber.Station3)
+        {
+            GetStationQueue(stationNumber + 1)?.Enqueue(tempAnimal);
+        }
+    }
+
+    private Queue GetStationQueue(StationNumber stationNumber)
+    {
         switch (stationNumber)
         {
-            case StationNumber.Station1:
-                tempAnimal = station1_AnimalQueue.Dequeue();
-                station2_AnimalQueue.Enqueue(tempAnimal);
-                break;
-            case StationNumber.Station2:
-                tempAnimal = station2_AnimalQueue.Dequeue();
-                station3_AnimalQueue.Enqueue(tempAnimal);
-                break;
-            case StationNumber.Station3:
-                station3_AnimalQueue.Dequeue();
-                break;
-            default:
-                break;
+            case StationNumber.Station0: return _station0AnimalQueue;
+            case StationNumber.Station1: return _station1AnimalQueue;
+            case StationNumber.Station2: return _station2AnimalQueue;
+            case StationNumber.Station3: return _station3AnimalQueue;
+            default: return null;
         }
     }
 }

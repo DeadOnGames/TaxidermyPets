@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class CardBuilder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Get requirements for next animal in this station
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //Link the data to set images on the card
 }
