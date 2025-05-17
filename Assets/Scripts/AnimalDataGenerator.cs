@@ -1,6 +1,8 @@
 using System.IO;
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -25,6 +27,9 @@ public class AnimalDataGenerator : MonoBehaviour
 
     [SerializeField]
     public List<AccessoryScriptableObject> eyesLibrary = new List<AccessoryScriptableObject>();
+
+    [SerializeField]
+    public List<string> animalNames = new List<string>();
 
     void Awake()
     {
@@ -73,15 +78,19 @@ public class AnimalDataGenerator : MonoBehaviour
         for (int i = 0; i < numOfAnimalsToCreate; i++)
         {
             int randomAnimalId = Random.Range(0, animalLibrary.Count);
+            //int randomOwnerId = Random.Range(0, customerLibrary.Count);
+            int randomAnimalName = Random.Range(0, animalNames.Count);
             int randomAccessoryId = Random.Range(0, accessoriesLibrary.Count);
             int randomEyeId = Random.Range(0, accessoriesLibrary.Count);
             int randomTimeSegment1 = Random.Range(0, timeSegments.Length);
             int randomTimeSegment2 = Random.Range(0, timeSegments.Length);
+            int randomAccessoryAmount = Random.Range(0, 3);
             
             allAnimals.Add(new AnimalData()
             {
                 animalId = i + 1,
                 ownerId = i + 1,
+                animalName = animalNames[randomAnimalName],
                 animalPrefabPath = $"Prefab/Animals/Animal_{randomAnimalId + 1}",
                 washingTime = timeSegments[randomTimeSegment1],
                 stuffingTime = timeSegments[randomTimeSegment2],
@@ -92,6 +101,16 @@ public class AnimalDataGenerator : MonoBehaviour
                 },
                 accessories = new List<AccessoryData>()
                 {
+                    new AccessoryData()
+                    {
+                        accessoryId = randomAccessoryId,
+                        accessoryPosition = new Vector3(0,0,0)
+                    },
+                    new AccessoryData()
+                    {
+                        accessoryId = randomAccessoryId,
+                        accessoryPosition = new Vector3(0,0,0)
+                    },
                     new AccessoryData()
                     {
                         accessoryId = randomAccessoryId,

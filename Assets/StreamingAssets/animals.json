@@ -2,11 +2,97 @@
     "animals": [
         {
             "animalId": 1,
+            "ownerId": 1,
+            "animalName": "Skittles",
             "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.5,
+            "washingTime": 0.75,
             "stuffingTime": 0.5,
             "eye": {
-                "accessoryId": 0,
+                "accessoryId": 4,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 2,
+            "ownerId": 2,
+            "animalName": "Skittles",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.75,
+            "stuffingTime": 0.75,
+            "eye": {
+                "accessoryId": 1,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 3,
+            "ownerId": 3,
+            "animalName": "Hunter",
+            "animalPrefabPath": "Prefab/Animals/Animal_3",
+            "washingTime": 0.5,
+            "stuffingTime": 0.75,
+            "eye": {
+                "accessoryId": 4,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -21,16 +107,76 @@
                         "y": 0.0,
                         "z": 0.0
                     }
+                },
+                {
+                    "accessoryId": 2,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 2,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
                 }
             ]
         },
         {
-            "animalId": 2,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
-            "washingTime": 0.5,
-            "stuffingTime": 0.75,
+            "animalId": 4,
+            "ownerId": 4,
+            "animalName": "John Waters",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.75,
+            "stuffingTime": 0.25,
             "eye": {
-                "accessoryId": 0,
+                "accessoryId": 3,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 5,
+            "ownerId": 5,
+            "animalName": "John Waters",
+            "animalPrefabPath": "Prefab/Animals/Animal_1",
+            "washingTime": 0.75,
+            "stuffingTime": 0.5,
+            "eye": {
+                "accessoryId": 2,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -45,25 +191,17 @@
                         "y": 0.0,
                         "z": 0.0
                     }
-                }
-            ]
-        },
-        {
-            "animalId": 3,
-            "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.5,
-            "stuffingTime": 0.75,
-            "eye": {
-                "accessoryId": 2,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
+                },
                 {
-                    "accessoryId": 1,
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -73,12 +211,14 @@
             ]
         },
         {
-            "animalId": 4,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
+            "animalId": 6,
+            "ownerId": 6,
+            "animalName": "Hunter",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
             "washingTime": 0.5,
-            "stuffingTime": 0.5,
+            "stuffingTime": 0.25,
             "eye": {
-                "accessoryId": 0,
+                "accessoryId": 3,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -93,47 +233,15 @@
                         "y": 0.0,
                         "z": 0.0
                     }
-                }
-            ]
-        },
-        {
-            "animalId": 5,
-            "animalPrefabPath": "Prefab/Animals/Animal_2",
-            "washingTime": 0.5,
-            "stuffingTime": 0.5,
-            "eye": {
-                "accessoryId": 3,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
+                },
                 {
-                    "accessoryId": 2,
+                    "accessoryId": 3,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
                         "z": 0.0
                     }
-                }
-            ]
-        },
-        {
-            "animalId": 6,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
-            "washingTime": 0.75,
-            "stuffingTime": 0.5,
-            "eye": {
-                "accessoryId": 4,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
+                },
                 {
                     "accessoryId": 3,
                     "accessoryPosition": {
@@ -146,8 +254,10 @@
         },
         {
             "animalId": 7,
-            "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.75,
+            "ownerId": 7,
+            "animalName": "Micheal",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.25,
             "stuffingTime": 0.25,
             "eye": {
                 "accessoryId": 1,
@@ -159,7 +269,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 4,
+                    "accessoryId": 1,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 1,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 1,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -170,32 +296,10 @@
         },
         {
             "animalId": 8,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
-            "washingTime": 0.75,
-            "stuffingTime": 0.5,
-            "eye": {
-                "accessoryId": 4,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
-                {
-                    "accessoryId": 2,
-                    "accessoryPosition": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "animalId": 9,
+            "ownerId": 8,
+            "animalName": "Skittles",
             "animalPrefabPath": "Prefab/Animals/Animal_2",
-            "washingTime": 0.5,
+            "washingTime": 0.75,
             "stuffingTime": 0.75,
             "eye": {
                 "accessoryId": 2,
@@ -207,7 +311,65 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 2,
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 9,
+            "ownerId": 9,
+            "animalName": "Bertha",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.75,
+            "stuffingTime": 0.75,
+            "eye": {
+                "accessoryId": 1,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -218,11 +380,13 @@
         },
         {
             "animalId": 10,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
+            "ownerId": 10,
+            "animalName": "Micheal",
+            "animalPrefabPath": "Prefab/Animals/Animal_3",
             "washingTime": 0.25,
             "stuffingTime": 0.5,
             "eye": {
-                "accessoryId": 1,
+                "accessoryId": 4,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -230,6 +394,22 @@
                 }
             },
             "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
                 {
                     "accessoryId": 0,
                     "accessoryPosition": {
@@ -242,11 +422,13 @@
         },
         {
             "animalId": 11,
-            "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.5,
+            "ownerId": 11,
+            "animalName": "Skittles",
+            "animalPrefabPath": "Prefab/Animals/Animal_1",
+            "washingTime": 0.25,
             "stuffingTime": 0.25,
             "eye": {
-                "accessoryId": 1,
+                "accessoryId": 3,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -255,7 +437,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 3,
+                    "accessoryId": 1,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 1,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 1,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -266,11 +464,13 @@
         },
         {
             "animalId": 12,
-            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "ownerId": 12,
+            "animalName": "John Waters",
+            "animalPrefabPath": "Prefab/Animals/Animal_1",
             "washingTime": 0.5,
             "stuffingTime": 0.5,
             "eye": {
-                "accessoryId": 4,
+                "accessoryId": 3,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -279,7 +479,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 3,
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -290,11 +506,13 @@
         },
         {
             "animalId": 13,
+            "ownerId": 13,
+            "animalName": "Hunter",
             "animalPrefabPath": "Prefab/Animals/Animal_2",
             "washingTime": 0.5,
-            "stuffingTime": 0.75,
+            "stuffingTime": 0.25,
             "eye": {
-                "accessoryId": 1,
+                "accessoryId": 3,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -302,6 +520,22 @@
                 }
             },
             "accessories": [
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
                 {
                     "accessoryId": 4,
                     "accessoryPosition": {
@@ -314,11 +548,13 @@
         },
         {
             "animalId": 14,
+            "ownerId": 14,
+            "animalName": "Micheal",
             "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.25,
+            "washingTime": 0.75,
             "stuffingTime": 0.25,
             "eye": {
-                "accessoryId": 2,
+                "accessoryId": 3,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -327,7 +563,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 1,
+                    "accessoryId": 3,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 3,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 3,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -338,11 +590,55 @@
         },
         {
             "animalId": 15,
-            "animalPrefabPath": "Prefab/Animals/Animal_2",
-            "washingTime": 0.25,
+            "ownerId": 15,
+            "animalName": "Bertha",
+            "animalPrefabPath": "Prefab/Animals/Animal_3",
+            "washingTime": 0.5,
             "stuffingTime": 0.5,
             "eye": {
-                "accessoryId": 1,
+                "accessoryId": 2,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 0,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 16,
+            "ownerId": 16,
+            "animalName": "Micheal",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.75,
+            "stuffingTime": 0.75,
+            "eye": {
+                "accessoryId": 4,
                 "accessoryPosition": {
                     "x": 0.0,
                     "y": 0.0,
@@ -357,25 +653,17 @@
                         "y": 0.0,
                         "z": 0.0
                     }
-                }
-            ]
-        },
-        {
-            "animalId": 16,
-            "animalPrefabPath": "Prefab/Animals/Animal_2",
-            "washingTime": 0.75,
-            "stuffingTime": 0.5,
-            "eye": {
-                "accessoryId": 2,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
+                },
                 {
-                    "accessoryId": 1,
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -386,8 +674,10 @@
         },
         {
             "animalId": 17,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
-            "washingTime": 0.25,
+            "ownerId": 17,
+            "animalName": "Micheal",
+            "animalPrefabPath": "Prefab/Animals/Animal_3",
+            "washingTime": 0.5,
             "stuffingTime": 0.5,
             "eye": {
                 "accessoryId": 3,
@@ -399,7 +689,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 0,
+                    "accessoryId": 3,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 3,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 3,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -410,7 +716,51 @@
         },
         {
             "animalId": 18,
-            "animalPrefabPath": "Prefab/Animals/Animal_1",
+            "ownerId": 18,
+            "animalName": "John Waters",
+            "animalPrefabPath": "Prefab/Animals/Animal_3",
+            "washingTime": 0.5,
+            "stuffingTime": 0.75,
+            "eye": {
+                "accessoryId": 2,
+                "accessoryPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "accessories": [
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "animalId": 19,
+            "ownerId": 19,
+            "animalName": "Bertha",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
             "washingTime": 0.75,
             "stuffingTime": 0.75,
             "eye": {
@@ -423,7 +773,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 0,
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 4,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
@@ -433,9 +799,11 @@
             ]
         },
         {
-            "animalId": 19,
-            "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.75,
+            "animalId": 20,
+            "ownerId": 20,
+            "animalName": "Hunter",
+            "animalPrefabPath": "Prefab/Animals/Animal_2",
+            "washingTime": 0.5,
             "stuffingTime": 0.25,
             "eye": {
                 "accessoryId": 3,
@@ -447,31 +815,23 @@
             },
             "accessories": [
                 {
-                    "accessoryId": 1,
+                    "accessoryId": 2,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
                         "z": 0.0
                     }
-                }
-            ]
-        },
-        {
-            "animalId": 20,
-            "animalPrefabPath": "Prefab/Animals/Animal_3",
-            "washingTime": 0.5,
-            "stuffingTime": 0.25,
-            "eye": {
-                "accessoryId": 2,
-                "accessoryPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                }
-            },
-            "accessories": [
+                },
                 {
-                    "accessoryId": 0,
+                    "accessoryId": 2,
+                    "accessoryPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "accessoryId": 2,
                     "accessoryPosition": {
                         "x": 0.0,
                         "y": 0.0,
